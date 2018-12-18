@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+  <section title="Willkommen auf den Seiten des Publikationsservers der MHH" xml:lang="de">
+        <div class="container" >
+            <div class="row">
+
+                <div class="col-xs-12">
+                  <h2>Publikationsserver der Medizinischen Hochschule Hannover</h2>
+                    <p>
+                      Hier entsteht der Publikationsserver der Medizinischen Hochschule Hannover (MHH).
+                    </p>
+                </div>
+
+            </div>
+        </div>
+  </section>
+  <meta>
+    <log date="2018-12-18" time="18:12" labelPath=" » Start" lastEditor="Kathleen Neumann" />
+  </meta>
+</MyCoReWebPage>

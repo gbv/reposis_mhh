@@ -1,0 +1,35 @@
+
+
+/* ----------------------------------------------------------------------------
+   Navigation
+---------------------------------------------------------------------------- */
+
+.mir-main-nav nav .navbar-nav > li > a,
+.mir-main-nav nav .navbar-nav .dropdown-menu > li > a,
+.dropdown-menu > li > a {
+  color: #939393;
+}
+
+.mir-main-nav nav .navbar-nav .dropdown-menu > li > a:hover,
+.mir-main-nav nav .navbar-nav .dropdown-menu > li > a:focus,
+.mir-main-nav nav .navbar-nav > li > a:hover {
+  background-color: #d3c7af;
+}
+
+.mir-main-nav nav .navbar-nav .dropdown-menu {
+  background-color: #e5ded0;
+}
+
+
+/* ----------------------------------------------------------------------------
+   Footer
+---------------------------------------------------------------------------- */
+
+html body #powered_by {
+  background-color: #e5ded0;
+  border-top: 0px solid #d3c7af;
+}
+
+.flatmir-footer {
+  border-top: 1px solid #d3c7af;
+}
