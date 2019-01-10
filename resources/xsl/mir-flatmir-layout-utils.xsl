@@ -37,11 +37,11 @@
         <nav>
           <ul class="nav navbar-nav navbar-right">
             <xsl:call-template name="mir.loginMenu" />
-            <xsl:call-template name="mir.languageMenu" />
+            <!-- xsl:call-template name="mir.languageMenu" / -->
           </ul>
         </nav>
         <br />
-        <a href="https://www.mh-hannover.de/bibliothek.html id="mhh-bibliothek"><xsl:value-of select="i18n:translate('mhh.mhhLibrary')" /></a>
+        <a href="https://www.mh-hannover.de/bibliothek.html" id="mhh-bibliothek"><xsl:value-of select="i18n:translate('mhh.mhhLibrary')" /></a>
       </div>
     </div>
 
@@ -72,10 +72,13 @@
             <xsl:for-each select="$loaded_navigation_xml/menu">
               <xsl:choose>
                 <xsl:when test="@id='main'"/> <!-- Ignore some menus, they are shown elsewhere in the layout -->
+                <xsl:when test="@id='brand'">
+                  <xsl:apply-templates select="./*" />
+                </xsl:when>
                 <xsl:when test="@id='below'"/>
                 <xsl:when test="@id='user'"/>
                 <xsl:otherwise>
-                  <xsl:apply-templates select="."/>
+                  <xsl:apply-templates select="." />
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:for-each>
@@ -144,3 +147,5 @@
     </xsl:if>
     <!-- End Piwik Code -->
   </xsl:template>
+  
+</xsl:stylesheet>
