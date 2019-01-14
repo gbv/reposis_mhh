@@ -60,7 +60,7 @@
             </span>
           </button>
           <div id="project_logo_box">
-            <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+            <a href="https://www.mh-hannover.de/"
                class="">
               <img src="{$WebApplicationBaseURL}images/logo_schriftzug.gif" alt="Medizinischen Hochschule Hannover (MHH)" title="zur Startseite" />
             </a>
