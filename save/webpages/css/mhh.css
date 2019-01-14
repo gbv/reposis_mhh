@@ -4,7 +4,7 @@ html {
 }
 
 html body {
-  margin-bottom: 120px; /* Margin bottom by footer height */
+  margin-bottom: 160px; /* Margin bottom by footer height */
 }
 
 /* ----------------------------------------------------------------------------
@@ -38,12 +38,50 @@ html body {
   padding-bottom: 5px;
 }
 
+#mhh-bibliothek {
+  color: #786e64;
+  font-weight: bold;
+  font-size: large;
+}
 
 #project_logo_box {
   position: absolute;
   left: 20px;
   top: -74px;
 }
+
+#options_nav_box {
+  position: relative;
+  text-align: right;
+}
+.searchfield_box {
+  position: absolute;
+  right: 0;
+  top: 56px;
+  width: 200px;
+}
+.searchfield_box .form-control,
+.searchfield_box input {
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #9c0000;
+  color: white;
+}
+.searchfield_box .btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-width: 0px;
+  margin: 4px 0 0 5px;
+  padding: 0;
+}
+html body header #searchInput {
+  padding: 0px 15px;
+  margin-top: 7px;
+}
+.form-control::placeholder {
+  color: #ab8888;
+}
+
 
 /* ----------------------------------------------------------------------------
    Footer
@@ -59,7 +97,7 @@ html body #powered_by {
   color: #000;
   background-color: white;
   margin-top: 0;
-  margin-bottom: 54px;
+  margin-bottom: 72px;
   position: absolute;
   bottom: 0;
   width: 100%;

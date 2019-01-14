@@ -15,7 +15,7 @@
   <menu id="below" dir="/content/below">
     <label xml:lang="de">Footer-Menü</label>
     <label xml:lang="en">Footer menu</label>
-    <item href="/content/below/impressum.xml" type="intern">
+    <item href="https://www.mh-hannover.de/impressum.html" type="intern"><!-- /content/below/impressum.xml -->
       <label xml:lang="de">Impressum</label>
       <label xml:lang="en">Impressum</label>
     </item>
@@ -23,7 +23,7 @@
       <label xml:lang="de">Kontakt</label>
       <label xml:lang="en">Contact</label>
     </item>
-    <item href="/content/below/rights.xml" type="intern">
+    <item href="https://www.mh-hannover.de/mhh-datenschutz.html" type="intern"><!-- /content/below/rights.xml -->
       <label xml:lang="de">Datenschutz</label>
       <label xml:lang="en">Privacy Notice</label>
     </item>
