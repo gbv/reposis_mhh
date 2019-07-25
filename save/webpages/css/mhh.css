@@ -14,11 +14,14 @@ html body {
 .mir-main-nav nav .navbar-nav > li > a,
 .mir-main-nav nav .navbar-nav .dropdown-menu > li > a,
 .dropdown-menu > li > a,
-#aux_col_actions .dropdown-menu > li > a:hover {
+#aux_col_actions .dropdown-menu > li > a:hover,
+#main_content .dropdown-menu > li > a:hover,
+#main_content .dropdown-menu > li.active > a {
   color: white; /* #939393; */
 }
 
-#aux_col_actions .dropdown-menu > li > a {
+#aux_col_actions .dropdown-menu > li > a,
+#main_content .dropdown-menu > li > a {
     color: #786e64;
 }
 
