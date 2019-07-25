@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
+  <label xml:lang="de" text="Einrichtungen der MHH" description="Liste der Einrichtungen" />
+  <label xml:lang="en" text="MHH Institutions" description="A list of institutions" />
+  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_institutes" />
+  <categories>
+    <category ID="hospitals_institutes">
+      <label xml:lang="en" text="Hospitals and Institutes" />
+      <label xml:lang="de" text="Kliniken und Institute" />
+      <category ID="7180">
+        <label xml:lang="de" text="Arbeitsbereich Klinische Psychologie und Sexualmedizin" />
+      </category>
+      <category ID="8891">
+        <label xml:lang="de" text="Experimentelle Otologie" />
+      </category>
+      <category ID="5430">
+        <label xml:lang="de" text="Forschungs- und Lehreinheit Medizinische Psychologie" />
+      </category>
+      <category ID="5420">
+        <label xml:lang="de" text="Forschungs- und Lehreinheit Medizinische Soziologie" />
+      </category>
+      <category ID="6610">
+        <label xml:lang="de" text="Forschungsabteilung Immundermatologie und experimentelle Allergologie" />
+      </category>
+      <category ID="8830">
+        <label xml:lang="de" text="Forschungseinrichtung Strukturbiochemie" />
+      </category>
+      <category ID="8885">
+        <label xml:lang="de" text="IFB-Tx: Institut für Zelltherapeutika" />
+      </category>
+      <category ID="8886">
+        <label xml:lang="de" text="IFB-Tx: Molekulare und Translationale Therapiestrategien (IMTS)" />
+      </category>
+      <category ID="8889">
+        <label xml:lang="de" text="IFB-Tx: Transplantationsimmunologie" />
+      </category>
+      <category ID="6960">
+        <label xml:lang="de" text="Institut Experimentelle Hämatologie" />
+      </category>
+      <category ID="5440">
+        <label xml:lang="de" text="Institut für Allgemeinmedizin" />
+      </category>
+      <category ID="5370">
+        <label xml:lang="de" text="Institut für Arbeitsmedizin" />
+      </category>
+      <category ID="8410">
+        <label xml:lang="de" text="Institut für Biometrie" />
+      </category>
+      <category ID="4350">
+        <label xml:lang="de" text="Institut für Biophysikalische Chemie" />
+      </category>
+      <category ID="8210">
+        <label xml:lang="de" text="Institut für Diagnostische und Interventionelle Neuroradiologie" />
+      </category>
+      <category ID="8220">
+        <label xml:lang="de" text="Institut für Diagnostische und Interventionelle Radiologie" />
+      </category>
+      <category ID="5410">
+        <label xml:lang="de" text="Institut für Epidemiologie, Sozialmedizin und Gesundheitssystemforschung" />
+      </category>
+      <category ID="4360">
+        <label xml:lang="de" text="Institut für Experimentelle Diabetologie - Niedersachsenprofessur" />
+      </category>
+      <category ID="4120">
+        <label xml:lang="de" text="Institut für Funktionelle und Angewandte Anatomie" />
+      </category>
+      <category ID="5450">
+        <label xml:lang="de" text="Institut für Geschichte, Ethik und Philosophie der Medizin" />
+      </category>
+      <category ID="6300">
+        <label xml:lang="de" text="Institut für Humangenetik" />
+      </category>
+      <category ID="5240">
+        <label xml:lang="de" text="Institut für Immunologie" />
+      </category>
+      <category ID="HZI1">
+        <label xml:lang="de" text="Institut für Infektionsepidemiologie" />
+      </category>
+      <category ID="4340">
+        <label xml:lang="de" text="Institut für Klinische Biochemie" />
+      </category>
+      <category ID="8110">
+        <label xml:lang="de" text="Institut für Klinische Chemie" />
+      </category>
+      <category ID="5350">
+        <label xml:lang="de" text="Institut für Klinische Pharmakologie" />
+      </category>
+      <category ID="5210">
+        <label xml:lang="de" text="Institut für Medizinische Mikrobiologie und Krankenhaushygiene" />
+      </category>
+      <category ID="4210">
+        <label xml:lang="de" text="Institut für Molekular- und Zellphysiologie" />
+      </category>
+      <category ID="5250">
+        <label xml:lang="de" text="Institut für Molekularbiologie" />
+      </category>
+      <category ID="4140">
+        <label xml:lang="de" text="Institut für Neuroanatomie und Zellbiologie" />
+      </category>
+      <category ID="4230">
+        <label xml:lang="de" text="Institut für Neurophysiologie" />
+      </category>
+      <category ID="5110">
+        <label xml:lang="de" text="Institut für Pathologie" />
+      </category>
+      <category ID="9646">
+        <label xml:lang="de" text="Institut für Pharmako- und Toxikogenomikforschung" />
+      </category>
+      <category ID="5320">
+        <label xml:lang="de" text="Institut für Pharmakologie" />
+      </category>
+      <category ID="5500">
+        <label xml:lang="de" text="Institut für Rechtsmedizin" />
+      </category>
+      <category ID="4250">
+        <label xml:lang="de" text="Institut für Sportmedizin" />
+      </category>
+      <category ID="9352">
+        <label xml:lang="de" text="Institut für Standardisiertes und Angewandtes Krankenhausmanagement" />
+      </category>
+      <category ID="5340">
+        <label xml:lang="de" text="Institut für Toxikologie" />
+      </category>
+      <category ID="8350">
+        <label xml:lang="de" text="Institut für Transfusionsmedizin" />
+      </category>
+      <category ID="8602">
+        <label xml:lang="de" text="Institut für Versuchstierkunde" />
+      </category>
+      <category ID="5230">
+        <label xml:lang="de" text="Institut für Virologie" />
+      </category>
+      <category ID="4310">
+        <label xml:lang="de" text="Institut für Zellbiochemie" />
+      </category>
+      <category ID="6220">
+        <label xml:lang="de" text="Klinik für Allgemein-, Viszeral- und Transplantationschirurgie" />
+      </category>
+      <category ID="8050">
+        <label xml:lang="de" text="Klinik für Anästhesiologie und Intensivmedizin" />
+      </category>
+      <category ID="6120">
+        <label xml:lang="de" text="Klinik für Augenheilkunde" />
+      </category>
+      <category ID="6600">
+        <label xml:lang="de" text="Klinik für Dermatologie, Allergologie und Venerologie" />
+      </category>
+      <category ID="6410">
+        <label xml:lang="de" text="Klinik für Frauenheilkunde und Geburtshilfe" />
+      </category>
+      <category ID="6810">
+        <label xml:lang="de" text="Klinik für Gastroenterologie, Hepatologie und Endokrinologie" />
+      </category>
+      <category ID="6500">
+        <label xml:lang="de" text="Klinik für Hals-, Nasen-, Ohrenheilkunde" />
+      </category>
+      <category ID="6860">
+        <label xml:lang="de" text="Klinik für Hämatologie, Hämostaseologie, Onkologie u. Stammzelltransplantation" />
+      </category>
+      <category ID="6210">
+        <label xml:lang="de" text="Klinik für Herz-, Thorax-, Transplantations- und Gefäßchirurgie" />
+      </category>
+      <category ID="6830">
+        <label xml:lang="de" text="Klinik für Immunologie und Rheumatologie" />
+      </category>
+      <category ID="6880">
+        <label xml:lang="de" text="Klinik für Kardiologie und Angiologie" />
+      </category>
+      <category ID="7730">
+        <label xml:lang="de" text="Klinik für Kieferorthopädie" />
+      </category>
+      <category ID="6760">
+        <label xml:lang="de" text="Klinik für Kinderchirurgie" />
+      </category>
+      <category ID="7720">
+        <label xml:lang="de" text="Klinik für Mund-, Kiefer- und Gesichtschirurgie" />
+      </category>
+      <category ID="7240">
+        <label xml:lang="de" text="Klinik für Neurochirurgie" />
+      </category>
+      <category ID="7210">
+        <label xml:lang="de" text="Klinik für Neurologie" />
+      </category>
+      <category ID="6840">
+        <label xml:lang="de" text="Klinik für Nieren- und Hochdruckerkrankungen" />
+      </category>
+      <category ID="8250">
+        <label xml:lang="de" text="Klinik für Nuklearmedizin" />
+      </category>
+      <category ID="6270">
+        <label xml:lang="de" text="Klinik für Orthopädie (Annastift)" />
+      </category>
+      <category ID="6780">
+        <label xml:lang="de" text="Klinik für Pädiatrische Hämatologie und Onkologie" />
+      </category>
+      <category ID="6720">
+        <label xml:lang="de" text="Klinik für Pädiatrische Nieren-, Leber- und Stoffwechselerkrankungen" />
+      </category>
+      <category ID="6710">
+        <label xml:lang="de" text="Klinik für Pädiatrische Pneumologie, Allergologie und Neonatologie" />
+      </category>
+      <category ID="6730">
+        <label xml:lang="de" text="Klinik für Pädiatrische Kardiologie und Pädiatrische Intensivmedizin" />
+      </category>
+      <category ID="6510">
+        <label xml:lang="de" text="Klinik für Phoniatrie und Pädaudiologie" />
+      </category>
+      <category ID="6260">
+        <label xml:lang="de" text="Klinik für Plastische, Ästhetische, Hand- und Wiederherstellungschirurgie" />
+      </category>
+      <category ID="6870">
+        <label xml:lang="de" text="Klinik für Pneumologie" />
+      </category>
+      <category ID="7110">
+        <label xml:lang="de" text="Klinik für Psychiatrie, Sozialpsychiatrie und Psychotherapie" />
+      </category>
+      <category ID="7160">
+        <label xml:lang="de" text="Klinik für Psychosomatik und Psychotherapie" />
+      </category>
+      <category ID="8300">
+        <label xml:lang="de" text="Klinik für Rehabilitationsmedizin" />
+      </category>
+      <category ID="6250">
+        <label xml:lang="de" text="Klinik für Rekonstruktive Gesichtschirurgie" />
+      </category>
+      <category ID="8240">
+        <label xml:lang="de" text="Klinik für Strahlentherapie und Spezielle Onkologie" />
+      </category>
+      <category ID="6230">
+        <label xml:lang="de" text="Klinik für Unfallchirurgie" />
+      </category>
+      <category ID="6240">
+        <label xml:lang="de" text="Klinik für Urologie und Urologische Onkologie" />
+      </category>
+      <category ID="7710">
+        <label xml:lang="de" text="Klinik für Zahnärztliche Prothetik und Biomedizinische Werkstoffkunde" />
+      </category>
+      <category ID="7740">
+        <label xml:lang="de" text="Klinik für Zahnerhaltung, Parodontologie und Präventive Zahnheilkunde" />
+      </category>
+      <category ID="8420">
+        <label xml:lang="de" text="Peter L.Reichertz Institut für Medizinische Informatik der TU Braunschweig und der MHH" />
+      </category>
+      <category ID="9651">
+        <label xml:lang="de" text="TwinCore - Experimentelle Infektionsforschung" />
+      </category>
+      <category ID="9652">
+        <label xml:lang="de" text="TwinCore - Experimentelle Virologie" />
+      </category>
+      <category ID="9653">
+        <label xml:lang="de" text="TwinCore - Infektionsimmunologie" />
+      </category>
+      <category ID="9654">
+        <label xml:lang="de" text="TwinCore - Molekulare Bakteriologie" />
+      </category>
+    </category>
+    <category ID="central_facilities">
+      <label xml:lang="de" text="Zentrale Einrichtungen" />
+      <label xml:lang="en" text="Central Facilities" />
+      <category ID="international_office">
+        <label xml:lang="de" text="Akademisches Auslandsamt" />
+      </category>
+      <category ID="asta">
+        <label xml:lang="de" text="Asta" />
+      </category>
+      <category ID="respiratory_research">
+        <label xml:lang="de" text="Atemwegsforschung" />
+      </category>
+      <category ID="respiratory_and_aerosol">
+        <label xml:lang="de" text="Atemwegsforschung und Aerosolmedizin" />
+      </category>
+      <category ID="company_social_counseling">
+        <label xml:lang="de" text="Betriebliche Sozialberatung" />
+      </category>
+      <category ID="8900">
+        <label xml:lang="de" text="Bibliothek" />
+      </category>
+      <category ID="breath">
+        <label xml:lang="de" text="Biomedical Research in Endstage and Obstructive Lung Disease Hannover (BREATH)" />
+      </category>
+      <category ID="bfd">
+        <label xml:lang="de" text="Büro Freiwillige Dienste" />
+      </category>
+      <category ID="crc">
+        <label xml:lang="de" text="CRC" />
+      </category>
+      <category ID="dzif">
+        <label xml:lang="de" text="DZIF: Deutsche Zentrum für Infektionsforschung" />
+      </category>
+      <category ID="6876">
+        <label xml:lang="de" text="DZL: Lungenforschung" />
+      </category>
+      <category ID="2180">
+        <label xml:lang="de" text="FOR" />
+      </category>
+      <category ID="3010">
+        <label xml:lang="de" text="Geschäftsführung Pflege" />
+      </category>
+      <category ID="equal_opportunities_commissioner">
+        <label xml:lang="de" text="Gleichstellungsbeauftragte" />
+      </category>
+      <category ID="hbrs">
+        <label xml:lang="de" text="Hannover Biomedical Research School (HBRS)" />
+      </category>
+      <category ID="9160">
+        <label xml:lang="de" text="Hannover Unified Biobank (HUB)" />
+      </category>
+      <category ID="hearing_4all">
+        <label xml:lang="de" text="Hearing 4All" />
+      </category>
+      <category ID="hzi_infection_biology">
+        <label xml:lang="de" text="HZI: Abteilung für Regulation in der Infektionsbiologie" />
+      </category>
+      <category ID="9642">
+        <label xml:lang="de" text="HZI: Epidemiologie" />
+      </category>
+      <category ID="hzi_exp_immunology">
+        <label xml:lang="de" text="HZI: Experimentelle Immunologie" />
+      </category>
+      <category ID="9644">
+        <label xml:lang="de" text="Immuno- Allergologie und Klinische Inhalation" />
+      </category>
+      <category ID="phdp_molecular_medicine">
+        <label xml:lang="de" text="Internationales MD/PhD Programm: Molecular Medicine" />
+      </category>
+      <category ID="phdp_auditory_sciences">
+        <label xml:lang="de" text="Internationales PhD Programm: Auditory Sciences" />
+      </category>
+      <category ID="phdp_dewin">
+        <label xml:lang="de" text="Internationales PhD Programm: DEWIN - Dynamik der Erreger-Wirt-Interaktionen" />
+      </category>
+      <category ID="phdp_epidemiology">
+        <label xml:lang="de" text="Internationales PhD Programm: Epidemiology" />
+      </category>
+      <category ID="phdp_regenerative_sciences">
+        <label xml:lang="de" text="Internationales PhD Programm: Regenerative Sciences" />
+      </category>
+      <category ID="phdp_infection_biology">
+        <label xml:lang="de" text="Internationales PhD-Programm: Infection Biology" />
+      </category>
+      <category ID="tecas">
+        <label xml:lang="de" text="Internationales Training Network TECAS" />
+      </category>
+      <category ID="irtg_1273">
+        <label xml:lang="de" text="IRTG 1273: Strategien menschlicher Krankheitserreger zur Etablierung akuter und chronischer Infektionen" />
+      </category>
+      <category ID="IsiEmhh">
+        <label xml:lang="de" text="IsiEmhh" />
+      </category>
+      <category ID="kfg_250">
+        <label xml:lang="de" text="Klinische Forschergruppe 250: Genetische und zelluläre Mechanismen von Autoinmmunerkrankungen" />
+      </category>
+      <category ID="kfg_311">
+        <label xml:lang="de" text="Klinische Forschergruppe 311: (Prä-)terminales Herz- und Lungenversagen: Mechanische Entlastung und Reparatur" />
+      </category>
+      <category ID="clinical_ethics_committee">
+        <label xml:lang="de" text="Klinisches Ethik-Komitee" />
+      </category>
+      <category ID="hospital_management">
+        <label xml:lang="de" text="Krankenhausmanagement" />
+      </category>
+      <category ID="nife">
+        <label xml:lang="de" text="NIFE" />
+      </category>
+      <category ID="staff">
+        <label xml:lang="de" text="Personalrat" />
+      </category>
+      <category ID="presidium">
+        <label xml:lang="de" text="Präsidium" />
+      </category>
+      <category ID="press_office">
+        <label xml:lang="de" text="Presseabteilung" />
+      </category>
+      <category ID="8880">
+        <label xml:lang="de" text="REBIRTH" />
+      </category>
+      <category ID="sfb_738">
+        <label xml:lang="de" text="SFB 738: Optimierung konventioneller und innovativer Transplantate" />
+      </category>
+      <category ID="sfb_900">
+        <label xml:lang="de" text="SFB 900: Chronische Infektionen: Mikrobielle Persistenz und ihre Kontrolle" />
+      </category>
+      <category ID="sfb_587">
+        <label xml:lang="de" text="Sonderforschungsbereich 587: Immunreaktionen der Lunge bei Infektion und Allergie" />
+      </category>
+      <category ID="sfb_599">
+        <label xml:lang="de" text="Sonderforschungsbereich 599: Zukunftsfähige bioresorbierbare und permanente Implantate aus metallischen und keramischen Werkstoffen" />
+      </category>
+      <category ID="0020">
+        <label xml:lang="de" text="Stabsstelle Strahlenschutz und Abteilung Medizinische Physik" />
+      </category>
+      <category ID="9135">
+        <label xml:lang="de" text="Studiendekanat Medizin" />
+      </category>
+      <category ID="sg_biochemistry">
+        <label xml:lang="de" text="Studiengang: Biochemie" />
+      </category>
+      <category ID="sg_biomedicine">
+        <label xml:lang="de" text="Studiengang: Biomedizin" />
+      </category>
+      <category ID="sg_midwifery">
+        <label xml:lang="de" text="Studiengang: Hebammenwissenschaft" />
+      </category>
+      <category ID="sg_human_medicine">
+        <label xml:lang="de" text="Studiengang: Humanmedizin" />
+      </category>
+      <category ID="sg_infection_biology">
+        <label xml:lang="de" text="Studiengang: Infection Biology" />
+      </category>
+      <category ID="sg_ligual_orthodontics">
+        <label xml:lang="de" text="Studiengang: Ligual Orthodontics" />
+      </category>
+      <category ID="sg_public_health">
+        <label xml:lang="de" text="Studiengang: Public Health" />
+      </category>
+      <category ID="sg_dentistry">
+        <label xml:lang="de" text="Studiengang: Zahnmedizin" />
+      </category>
+      <category ID="trr_127">
+        <label xml:lang="de" text="TRR 127" />
+      </category>
+      <category ID="trr_209">
+        <label xml:lang="de" text="TRR 209" />
+      </category>
+      <category ID="8500">
+        <label xml:lang="de" text="Zentralapotheke" />
+      </category>
+      <category ID="zfe_biomedimplant">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung BioMedimplant" />
+      </category>
+      <category ID="8840">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung für Elektronenmikroskopie" />
+      </category>
+      <category ID="9415">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung für Genomics (Research Core Unit Genomics-RCUG)" />
+      </category>
+      <category ID="9413">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung für Lasermikroskopie" />
+      </category>
+      <category ID="9414">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung für Metabolomics" />
+      </category>
+      <category ID="zfe_next_generation_sequencing">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung für Next Genration Sequencing" />
+      </category>
+      <category ID="9412">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung für Proteomics" />
+      </category>
+      <category ID="9411">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung für Zellsortierung (Sorter-Lab)" />
+      </category>
+      <category ID="zfe_mass_spectrometric_protein_analysis">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung Massenspektrometrische Proteinanalytik" />
+      </category>
+      <category ID="zfe_transcriptomics">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung Transcriptomics" />
+      </category>
+      <category ID="central_research_workshops">
+        <label xml:lang="de" text="Zentrale Forschungswerkstätten" />
+      </category>
+      <category ID="8700">
+        <label xml:lang="de" text="Zentrum für Informationsmanagement" />
+      </category>
+      <category ID="zip">
+        <label xml:lang="de" text="ZIB" />
+      </category>
+    </category>
+  </categories>
+</mycoreclass>
