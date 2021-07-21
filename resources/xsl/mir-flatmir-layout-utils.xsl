@@ -41,7 +41,7 @@
           </ul>
         </nav>
         <br />
-        <a href="https://www.mh-hannover.de/bibliothek.html" id="mhh-bibliothek"><xsl:value-of select="i18n:translate('mhh.mhhLibrary')" /></a>
+        <a href="https://www.mhh.de/bibliothek" id="mhh-bibliothek"><xsl:value-of select="i18n:translate('mhh.mhhLibrary')" /></a>
       </div>
     </div>
 
@@ -60,7 +60,7 @@
             </span>
           </button>
           <div id="project_logo_box">
-            <a href="https://www.mh-hannover.de/"
+            <a href="https://www.mhh.de/"
                class="">
               <img src="{$WebApplicationBaseURL}images/logo_schriftzug.gif" alt="Medizinischen Hochschule Hannover (MHH)" title="zur Startseite" />
             </a>
