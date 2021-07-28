@@ -21,7 +21,7 @@
       Ihre Benutzerkennung wurde angelegt!
     </subject>
     <body>
-      Bitte benutzen Sie folgenden Link um ihre E-Mail-Adresse zu bestätigen und die Registrierung abzuschließen.
+      Bitte benutzen Sie folgenden Link um ihre E-Mail-Adresse zu bestaetigen und die Registrierung abzuschliessen.
       <xsl:value-of select="$newline" />
       <xsl:value-of
         select="concat('&lt;', $ServletsBaseURL, 'MirSelfRegistrationServlet?action=verify&amp;user=', @name, '&amp;realm=', @realm, '&amp;token=', attributes/attribute[@name='mailtoken']/@value, '&gt;')" />
