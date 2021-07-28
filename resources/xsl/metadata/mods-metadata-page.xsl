@@ -171,7 +171,7 @@
             </div>
           </xsl:if>
 <!-- system -->
-          <xsl:if test="not(mcrxsl:isCurrentUserGuestUser()) and @read">
+          <xsl:if test="not(mcrxsl:isCurrentUserGuestUser() or mcrxsl:isCurrentUserInRole('reader')) and @read">
             <div id="mir_admindata_panel" class="panel panel-default system">
               <div class="panel-heading">
                 <h3 class="panel-title">
