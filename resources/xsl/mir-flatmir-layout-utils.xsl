@@ -100,8 +100,8 @@
         <div class="col-xs-12 col-sm-4">
           <p>
             Kontakt<br />
-            Telefon: 0511/532-3326<br />
-            E-Mail: <span class="madress">information.bibliothek [at] mh-hannover.de</span>
+            Telefon: +49 511/532-5578<br />
+            E-Mail: <span class="madress">forschungsdaten.bibliothek [at] mh-hannover.de</span>
             
           </p>
         </div>
