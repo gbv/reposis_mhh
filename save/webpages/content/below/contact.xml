@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage><section xml:lang="de" title="Kontakt">
 <h2>Kontakt</h2>
-
     <div class="row">
         <div class="col-md-12">
 
             <p><strong>Bibliotheksleitung (komm.)</strong><br />
                 Markus Schmiel<br />
                 E-Mail: <span class="madress"> direktion.bibliothek [at] mh-hannover.de</span><br />
-                Telefon: +49 511/532 3970
+                Telefon: +49 511/532-3338
             </p>
 
 
@@ -16,22 +15,24 @@
                 Alica Schweissing<br />
                 E-Mail: <span class="madress">forschungsdaten.bibliothek [at] mh-hannover.de</span><br />
                 Telefon: +49 511/532-5578
-                <br/>
+                <br/> <br/>
                 Sabine Knauer<br />
                 E-Mail: <span class="madress">forschungsdaten.bibliothek [at] mh-hannover.de</span><br />
                 Telefon: +49 511/532-5578
             </p>
             
-<p><b>Fragen zum Repositoryframework MyCoRe und dem Datenbankserver beantwortet Ihnen die</b></p>
-
-<p>Verbundzentrale des GBV (VZG)<br />
-Platz der Göttinger Sieben 1<br />
-37073 Göttingen<br />
-Tel.: 0551 39 5207<br />
-Fax: 0551 39 13980<br />
-<b>Digitale Bibliothek, VZG-Reposis</b><br />
-Internet: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service</a><br />
-E-Mail: <span class="madress">dms-list [at] lists.gbv.de</span></p>
-      </div>
+            <p> 
+                <strong>Fragen zum Repositoryframework MyCoRe und dem Datenbankserver beantwortet Ihnen die</strong>
+                <br/>
+                Verbundzentrale des GBV (VZG)<br />
+                Platz der Göttinger Sieben 1<br />
+                37073 Göttingen<br />
+                Tel.: 0551 39 5207<br />
+                Fax: 0551 39 13980<br />
+                <b>Digitale Bibliothek, VZG-Reposis</b><br />
+                Internet: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service</a><br />
+                E-Mail: <span class="madress">dms-list [at] lists.gbv.de</span>
+            </p>
+        </div>
     </div>
-</section><meta><log lastEditor="Kathleen Neumann" date="2019-01-08" time="10:50" /></meta></MyCoReWebPage>
+</section><meta><log lastEditor="Paul Borchert" date="2021-09-06" time="16:00" /></meta></MyCoReWebPage>
