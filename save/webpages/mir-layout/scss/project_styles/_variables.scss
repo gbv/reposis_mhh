@@ -14,8 +14,29 @@
 //  project settings
 // --------------------------------------------------
 
+// from 'Farben und Schriften der MHH.docx'
+$mhhRed:          rgb(204, 0, 0);     //#CC0000
+$mhhBlue:         rgb(0,51,153);      //#003399
+$mhhGrayDark:     rgb(102, 102, 102); //#505050
+$mhhGrayLight:    rgb(153, 153, 153); //#ABABAB
 
+// from webpage
+$mhhBrown:        rgb(120, 110, 100); //#786e64 headline, footer background
+$mhhBlackLight:   rgb(57, 57, 57);    //#393939 text, footer background
+$mhhWhiteDark:    rgb(229, 234, 237); //#e5eaed section background
+$mhhRedLight:     rgb(249, 177, 161); //#f9b1a1 footer links
+$mhhOrange:       rgb(237, 92, 60);   //#ed5c3c interaktive elements
+$mhhROrangeDark:  rgb(240, 60, 20);   //#f03c14 headline
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
+
+$primary: $mhhROrangeDark;
+$secondary: $mhhBlue;
+$link-color: $mhhROrangeDark;
+
+$body-color: $mhhBlackLight;
+$link-color: $mhhROrangeDark;
+$link-hover-color: $mhhRed;
+$link-hover-decoration: underline;

@@ -8,6 +8,28 @@
 
 // logo and menu container
 
+  #header_box {
+    margin: 50px auto 20px auto;
+    margin-bottom: 0;
+    position: relative;
+  }
+  .project_logo_box {
+    &__logo {
+      color: $mhhBrown;
+      height: 120px;
+      width: 300px;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .mhh-bibliothek {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 15px;
+    color: $mhhBrown;
+    font-size: 1.5rem;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

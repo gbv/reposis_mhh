@@ -6,7 +6,42 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+  .mir-start_page {
+    #page {
+      padding-top: 0;
+    }
+    .mhh-background-tile {
+      background-color: rgba(57, 57, 57, 0.81);
+      border-radius: 6px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      max-width: 600px;
+    }
+    .jumboone {
+      padding: 100px 50px 50px 50px;
+      background-image: url('../../../../images/background-sample.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .jumbotwo {
+      padding: 50px;
+      background-color: $mhhWhiteDark;
+    }
+    .card-title {
+      font-size: 1.8rem;
+      color: $mhhROrangeDark;
+      margin-bottom: 1.5rem;
+    }
+    .card-body {
+      font-size: 1rem;
+    }
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

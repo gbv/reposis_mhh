@@ -6,6 +6,23 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  .flatmir-footer {
+    margin-top: 0;
+    background-color: $mhhBrown;
+    a {
+      color: $mhhRedLight;
+      text-decoration: underline;
+    }
+    .mhh-footer-contact {
+      margin-left: 50px;
+    }
+    .internal_links {
+      margin-right: 50px;
+    }
+  }
+  #powered_by {
+    background-color: $mhhBlackLight;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

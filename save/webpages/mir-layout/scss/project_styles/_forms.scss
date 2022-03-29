@@ -6,7 +6,19 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+  .searchfield_box {
+    margin-bottom: -30px;
+    margin-right: 50px;
+    .form-control {
+      font-size: 1rem;
+    }
+    .btn {
+      font-size: 1rem;
+    }
+  }
+  #searchInput{
+    border-color: white;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
