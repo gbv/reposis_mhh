@@ -26,16 +26,21 @@
       background-size: cover;
       h1 {
         font-size: 3rem;
+        font-weight: normal;
         margin-bottom: 1rem;
+        color: white;
       }
     }
     .jumbotwo {
       padding: 50px;
       background-color: $mhhWhiteDark;
+      .card {
+        box-shadow: 0 46px 50px -35px rgba(0,0,0,.2);
+      }
     }
     .card-title {
       font-size: 1.8rem;
-      color: $mhhROrangeDark;
+      color: $mhhOrangeDark;
       margin-bottom: 1.5rem;
     }
     .card-body {

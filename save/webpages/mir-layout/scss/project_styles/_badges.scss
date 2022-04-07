@@ -1,28 +1,41 @@
-/*
- *  footer settings
+/*  buttons settings
+ *  - for buttons and links that look like buttons
  */
 
 // Extra large devices (large desktops)
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-  .flatmir-footer {
-    margin-top: 0;
-    background-color: $mhhBrown;
-    a {
-      color: $mhhRedLight;
-      text-decoration: underline;
-    }
-    .mhh-footer-contact {
-      //margin-left: 50px;
-    }
-    .internal_links {
-      //margin-right: 50px;
-    }
-  }
-  #powered_by {
-    background-color: $mhhBlackLight;
-  }
+.badge-primary {
+  color: $primary;
+  background-color: white;
+  border: 1px solid $primary;
+}
+.badge-secondary {
+  color: $secondary;
+  background-color: white;
+  border: 1px solid $secondary;
+}
+.badge-success {
+  color: $success;
+  background-color: white;
+  border: 1px solid $success;
+}
+.badge-warning {
+  color: $warning;
+  background-color: white;
+  border: 1px solid $warning;
+}
+.badge-info {
+  color: $info;
+  background-color: white;
+  border: 1px solid $info;
+}
+.result_body .result_list #hit_list .hit_item .hit_state .mir-submitted {
+  color: $warning;
+  border: 1px solid $warning;
+  background-color: white;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

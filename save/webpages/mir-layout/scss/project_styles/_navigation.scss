@@ -7,18 +7,31 @@
 // no (xl) media query necessary (desktop first)
 
   .mir-main-nav {
-    background-color: $mhhROrangeDark;
+    background-color: $mhhOrangeDark;
     border-bottom: 40px solid $mhhWhiteDark;
     .navbar {
       padding: 0;
       min-height: 40px;
       .navbar-nav {
-        margin-left: 50px;
+        margin-left: 2.125rem;
       }
     }
-    .navbar-dark .navbar-nav .nav-link:hover,
-    .navbar-dark .navbar-nav .nav-link:focus {
-      color: white;
+    .navbar-dark .navbar-nav .nav-link {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      transition: background-color .5ms,
+                  color .5ms;
+      &:hover,
+      &:focus {
+        color: $mhhOrangeDark;
+        background: white;
+      }
+    }
+    .dropdown-menu {
+      margin: 0;
+      border: 0px solid rgba(0,0,0,0.15);
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
     }
   }
   .mir-prop-nav {
