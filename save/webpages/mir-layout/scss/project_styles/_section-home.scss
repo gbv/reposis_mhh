@@ -24,11 +24,22 @@
       background-image: url('../../../../images/background-sample.png');
       background-repeat: no-repeat;
       background-size: cover;
+      position: relative;
       h1 {
         font-size: 3rem;
         font-weight: normal;
         margin-bottom: 1rem;
         color: white;
+      }
+      &::after {
+        content: "cc by Herrn Professor Wahl-Schott";
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: $mhhBrown;
+        padding: 0 0.5rem;
+        font-size: 0.8rem;
       }
     }
     .jumbotwo {
@@ -66,4 +77,15 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .mir-start_page {
+    .jumboone {
+      padding: 50px 15px;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+    .jumbotwo {
+      padding: 15px;
+    }
+  }
 }

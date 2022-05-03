@@ -102,7 +102,7 @@
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row mt-3">
-        <div class="col-4">
+        <div class="col-12 col-md">
           <div class="mhh-footer-contact">
             <h4>RepoMed</h4>
             <p>
@@ -115,7 +115,7 @@
           </div>
 
         </div>
-        <div class="col-8 text-right">
+        <div class="col-12 col-md text-right">
           <ul class="internal_links nav navbar-nav">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu"/>
           </ul>

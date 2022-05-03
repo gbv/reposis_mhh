@@ -36,6 +36,13 @@
   }
   .mir-prop-nav {
     margin-top: -30px;
+    .navbar-nav > li > a {
+      color: $mhhBrown;
+      padding: 3px 0.5rem;
+    }
+    .navbar-nav > li:last-child > a {
+      padding-right: 0;
+    }
   }
 
 // Large devices (desktops) and below: <= 1200px

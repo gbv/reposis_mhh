@@ -8,13 +8,13 @@
           Herzlich Willkommen bei RepoMed
         </h1>
         <p>Der Publikationsserver der Medizinischen Hochschule Hannover
-          dient der kostenfreien open access
+          dient der kostenfreien Open Access
           Veröffentlichung wissenschaftlicher Publikationen von
           MHH-Wissenschaftler_innen sowie MHH-Studierenden.</p>
       </div>
     </div>
     <div class="jumbotwo">
-      <div class="row row-cols-2">
+      <div class="row row-cols-1 row-cols-lg-2">
         <div class="col">
           <div class="card">
             <div class="card-body">
@@ -37,13 +37,29 @@
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Archiv</h5>
+              <h5 class="card-title">Veröffentlichen &amp; Archivieren
+              </h5>
               <p class="card-text">
-                Wenn Sie als Autorin/Autor Ihren wissenschaftlichen Artikel in
-                RepoMed zugänglich machen und dauerhaft archivieren möchten, finden
-                Sie weitere Informationen unter unseren
-                <a href="publish/guidelines.xml">
-                  Leitlinien
+                Als MHH-Wissenschaftler_in sowie MHH-Studierende haben Sie
+                die Möglichkeit Ihre wissenschaftlichen Publikationen,
+                Forschungsdaten sowie Kongressbeiträge und offiziellen
+                MHH-Veröffentlichungen zugänglich zu machen und dauerhaft
+                zu archivieren.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Wissenschaftliche Publikationen
+              </h5>
+              <p class="card-text">
+                Sie haben die Möglichkeit Ihre wissenschaftlichen Publikationen
+                im Repositorium bereitzustellen, weitere Informationen hierzu
+                finden Sie auf unserer
+                <a href="https://www.mhh.de/bibliothek/publikationsserver">
+                  Bibliotheks-Homepage
                 </a>.
               </p>
             </div>

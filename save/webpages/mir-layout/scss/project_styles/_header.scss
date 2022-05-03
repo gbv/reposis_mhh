@@ -29,6 +29,13 @@
     right: 15px;
     color: $mhhBrown;
     font-size: 1.5rem;
+    font-weight: bold;
+    &:hover,
+    &:active,
+    &:focus {
+      color: $mhhOrangeDark;
+      text-decoration: none;
+    }
   }
 
 // Large devices (desktops) and below: <= 1200px
@@ -49,4 +56,10 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .mhh-bibliothek {
+    position: unset;
+    text-align: right;
+    display: block;
+    margin-bottom: 1rem;
+  }
 }
