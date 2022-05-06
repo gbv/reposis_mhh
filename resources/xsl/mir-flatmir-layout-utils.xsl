@@ -47,7 +47,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries">
+          <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries mb-3 mb-lg-0">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <xsl:call-template name="project.generate_single_menu_entry">
                 <xsl:with-param name="menuID" select="'brand'"/>
@@ -57,37 +57,34 @@
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
               <xsl:call-template name="mir.basketMenu" />
             </ul>
-
-            <form
-              action="{$WebApplicationBaseURL}servlets/solr/find"
-              class="searchfield_box form-inline"
-              role="search">
-              <xsl:choose>
-                <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
-                  <input name="owner" type="hidden" value="createdby:*" />
-                </xsl:when>
-                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                </xsl:when>
-              </xsl:choose>
-              <div class="input-group">
-                <input
-                  name="condQuery"
-                  placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-                  class="form-control search-query"
-                  id="searchInput"
-                  type="text"
-                  aria-label="Search" />
-                  <div class="input-group-append">
-                    <button type="submit" class="btn text-primary bg-white">
-                    <i class="fas fa-search"></i>
-                  </button>
-                </div>
-              </div>
-            </form>
-
           </div>
-
+          <form
+            action="{$WebApplicationBaseURL}servlets/solr/find"
+            class="searchfield_box form-inline"
+            role="search">
+            <xsl:choose>
+              <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
+                <input name="owner" type="hidden" value="createdby:*" />
+              </xsl:when>
+              <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+              </xsl:when>
+            </xsl:choose>
+            <div class="input-group">
+              <input
+                name="condQuery"
+                placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+                class="form-control search-query"
+                id="searchInput"
+                type="text"
+                aria-label="Search" />
+                <div class="input-group-append">
+                  <button type="submit" class="btn text-primary bg-white">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
         </nav>
       </div>
     </div>

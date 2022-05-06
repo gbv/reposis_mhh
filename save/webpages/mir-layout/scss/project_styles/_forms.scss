@@ -28,6 +28,18 @@
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
+  .searchfield_box {
+    position: absolute;
+    right: 0;
+    top: .5rem;
+    margin: 0;
+    .input-group {
+      padding-left: 70px;
+    }
+    .form-control {
+      width: 90%;
+    }
+  }
 }
 
 // Small devices (landscape phones) and below: <= 768px

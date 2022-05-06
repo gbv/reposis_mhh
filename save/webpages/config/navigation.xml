@@ -79,8 +79,8 @@
     </item>
   </menu>
   <menu id="publish" dir="/content/publish">
-    <label xml:lang="de">Dokumente einreichen</label>
-    <label xml:lang="en">Submit Document</label>
+    <label xml:lang="de">Nutzungshinweise</label>
+    <label xml:lang="en">Usage Hints</label>
     <item href="/content/publish/index.xml" type="intern">
       <label xml:lang="de">Dokument erfassen</label>
       <label xml:lang="en">Submit Document</label>

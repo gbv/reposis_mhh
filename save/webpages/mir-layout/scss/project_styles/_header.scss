@@ -30,6 +30,7 @@
     color: $mhhBrown;
     font-size: 1.5rem;
     font-weight: bold;
+    white-space: nowrap;
     &:hover,
     &:active,
     &:focus {
@@ -61,5 +62,8 @@
     text-align: right;
     display: block;
     margin-bottom: 1rem;
+  }
+  #project_logo_box {
+    float:none;
   }
 }

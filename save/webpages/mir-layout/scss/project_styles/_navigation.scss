@@ -16,15 +16,22 @@
         margin-left: 2.125rem;
       }
     }
-    .navbar-dark .navbar-nav .nav-link {
-      padding-left: 1rem;
-      padding-right: 1rem;
-      transition: background-color .5ms,
-                  color .5ms;
-      &:hover,
-      &:focus {
-        color: $mhhOrangeDark;
-        background: white;
+    .navbar-dark {
+      .navbar-toggler {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+      .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        transition: background-color .5ms,
+                    color .5ms;
+        &:hover,
+        &:focus {
+          color: $mhhOrangeDark;
+          background: white;
+        }
       }
     }
     .dropdown-menu {
