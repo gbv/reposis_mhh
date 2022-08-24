@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
+
+  <!-- ========== extend editor-genres.xed ========== -->
+  <xed:modify ref="admin.fields">
+    <xed:include ref="digibib.title.complex.repeated"    after="title.complex.repeated"/>
+    <xed:remove  ref="title.complex.repeated" />
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="access" />
+    <xed:remove  ref="access" />
+    <xed:include ref="digibib.class.location"            after="abstract.repeated" />
+    <xed:include ref="digibib.class.sponsors"            after="digibib.class.location" />
+    <xed:remove  ref="openAIRE" />
+    <xed:include ref="openAIRE"                          after="digibib.class.sponsors" />
+  </xed:modify>
+
+  <xed:modify ref="genres.book">
+    <xed:include ref="title.translated"                  after="title.original" />
+  </xed:modify>
+
+  <xed:modify ref="genres.book.common">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.collection">
+    <xed:include ref="title.translated"                  after="title.original" />
+  </xed:modify>
+
+  <xed:modify ref="genres.festschrift">
+    <xed:include ref="title.translated"                  after="title.original" />
+  </xed:modify>
+
+  <xed:modify ref="genres.proceedings">
+    <xed:include ref="title.translated"                  after="title.original" />
+  </xed:modify>
+
+  <xed:modify ref="genres.journal.common">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.dissertation">
+    <xed:remove ref="thesis.advisor.reviewer.all.repeated" />
+    <xed:remove ref="year.issued" />
+    <xed:remove ref="date.submitted.datetimepicker" />
+    <xed:remove ref="shelfmark" />
+    <xed:remove ref="genres.thesis.common" />
+    <xed:include ref="digibib.thesis.advisor.repeated"   after="titles.thesis" />
+    <xed:include ref="publisher"                         after="date.accepted.datetimepicker" />
+    <xed:include ref="extent"                            after="publisher" />
+    <xed:include ref="language"                          after="extent" />
+    <xed:include ref="digibib.rights.ccby40"             after="language" />
+    <xed:include ref="institutes"                        after="digibib.rights.ccby40" />
+    <xed:include ref="digibib.abstract.repeated"         after="institutes" />
+  </xed:modify>
+
+  <xed:modify ref="genres.thesis.common">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.repeated" />
+    <xed:remove  ref="abstract.repeated" />
+  </xed:modify>
+
+  <xed:modify ref="genres.teaching_material">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.repeated" />
+    <xed:remove  ref="abstract.repeated" />
+  </xed:modify>
+
+  <xed:modify ref="genres.publication.common">
+    <xed:include ref="title.translated"                  after="title.original" />
+    <xed:include ref="name.extended.repeated"            after="author.repeated" />
+    <xed:remove  ref="author.repeated" />
+    <xed:include ref="publisher"                         after="extent" />
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.report.common">
+    <xed:include ref="title.original"                    after="title" />
+    <xed:include ref="title.translated"                  after="title.original" />
+    <xed:remove  ref="title" />
+    <xed:remove  ref="subtitle" />
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+    <xed:include ref="identifier.repeated"               after="doi.handle.urn.repeated" />
+    <xed:remove  ref="doi.handle.urn.repeated" />
+    <xed:include ref="place"                             after="year.issued" />
+    <xed:include ref="publisher"                         after="place" />
+    <xed:include ref="extent"                            after="publisher" />
+  </xed:modify>
+
+  <xed:modify ref="genres.entry">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.repeated" />
+    <xed:remove  ref="abstract.repeated" />
+  </xed:modify>
+
+  <xed:modify ref="genres.preface">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.interview">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.speech">
+    <xed:include ref="title.original"                    after="title" />
+    <xed:include ref="title.translated"                  after="title.original" />
+    <xed:remove  ref="title" />
+    <xed:remove  ref="subtitle" />
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.patent">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.poster">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.av.common">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+    <xed:include ref="extent"                            after="date.recorded.datetimepicker" />
+  </xed:modify>
+
+  <xed:modify ref="genres.research_data">
+    <xed:include ref="title.original"                    after="title" />
+    <xed:include ref="title.translated"                  after="title.original" />
+    <xed:remove  ref="title" />
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="access" />
+    <xed:remove  ref="access" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+    <xed:include ref="workaround.research.data.date.repeated"         after="research.data.date.repeated" />
+    <xed:remove  ref="research.data.date.repeated" />
+  </xed:modify>
+
+  <xed:modify ref="genres.lecture">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.simple" />
+    <xed:remove  ref="abstract.simple" />
+  </xed:modify>
+
+  <xed:modify ref="genres.picture">
+    <xed:include ref="digibib.ddc.repeat"                after="sdnb.repeat" />
+    <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="digibib.access"                    after="subject.simple" />
+    <xed:include ref="digibib.abstract.repeated"         after="abstract.repeated" />
+    <xed:remove  ref="abstract.repeated" />
+  </xed:modify>
+
+  <xed:template id="title.issue.relItemsearch">
+    <mir:relItemsearch searchengine="title_ptitle" genre="issue" responsefield="mods.title" xpath="mods:titleInfo/mods:title" label="mir.title.issue"
+      help-text="{i18n:mir.help.title.issue}" class="required" />
+  </xed:template>
+  
+  <xed:template id="identifier.issn.issue.relItemsearch">
+    <mir:relItemsearch searchengine="issn" genre="issue" responsefield="identifier.type.issn" xpath="mods:identifier[@type='issn']" label="mir.identifier.issn"
+      help-text="{i18n:mir.help.identifier.issn}" />
+  </xed:template>
+  
+</xed:template>
