@@ -1,0 +1,53 @@
+/*  form settings
+ *  - styles for forms and form fields
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+  .searchfield_box {
+    margin-bottom: -30px;
+    margin-right: 50px;
+    .form-control {
+      font-size: 1rem;
+    }
+    .btn {
+      font-size: 1rem;
+    }
+  }
+  #searchInput{
+    border-color: white;
+  }
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+  .searchfield_box {
+    position: absolute;
+    right: 0;
+    top: .5rem;
+    margin: 0;
+    .input-group {
+      padding-left: 70px;
+    }
+    .form-control {
+      width: 90%;
+    }
+  }
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}

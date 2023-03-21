@@ -1,0 +1,62 @@
+// **************************************************
+//  Variables
+// **************************************************
+
+// --------------------------------------------------
+//  modifies bootstrap/bootswatch settings
+// --------------------------------------------------
+//  You can't use bootstrap variables here,
+//  they are unknown yet.
+//  But if you set them here, you will overwrite
+//  the bootstrap defaults! in this way
+
+// --------------------------------------------------
+//  project settings
+// --------------------------------------------------
+
+// from 'Farben und Schriften der MHH.docx'
+$mhhRed:          rgb(204, 0, 0);     //#CC0000
+$mhhBlue:         rgb(0,51,153);      //#003399
+$mhhGrayDark:     rgb(102, 102, 102); //#505050
+$mhhGrayLight:    rgb(153, 153, 153); //#ABABAB
+
+// from webpage
+$mhhBrown:        rgb(120, 110, 100); //#786e64 headline, footer background
+$mhhBlackLight:   rgb(57, 57, 57);    //#393939 text, footer background
+$mhhWhiteDark:    rgb(229, 234, 237); //#e5eaed section background
+$mhhRedLight:     rgb(249, 177, 161); //#f9b1a1 footer links
+$mhhOrange:       rgb(237, 92, 60);   //#ed5c3c interaktive elements
+$mhhOrangeDark:   rgb(240, 60, 20);   //#f03c14 headline
+
+// --------------------------------------------------
+//  overwrite bootstrap
+// --------------------------------------------------
+
+$primary: $mhhOrangeDark;
+$secondary: $mhhBrown;
+$link-color: $mhhOrangeDark;
+
+$font-size-base: 1rem;
+$body-color: $mhhBlackLight;
+$link-color: $mhhOrangeDark;
+$link-hover-color: $mhhRed;
+$link-hover-decoration: underline;
+
+$h1-font-size: 2.5rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 1.875rem;
+$headings-color: $mhhBrown;
+$headings-font-weight: 700;
+
+$pagination-color: white;
+$pagination-bg: $mhhOrange;
+$pagination-border-color: $primary;
+$pagination-hover-color: white;
+$pagination-hover-bg: $primary;
+$pagination-hover-border-color: $primary;
+$pagination-active-color: $primary;
+$pagination-active-bg: white;
+$pagination-active-border-color: $primary;
+$pagination-disabled-color: $mhhGrayLight;
+$pagination-disabled-bg: $mhhBrown;
+$pagination-disabled-border-color: $mhhBrown;
