@@ -24,3 +24,12 @@ deprecated.active.properties
 resources/META-INF/persistence.xml
 pom.xml.bak
 target
+##IntelliJ https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+*.iml
+.idea/
+*.iws
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
