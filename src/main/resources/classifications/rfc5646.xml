@@ -32,7 +32,6 @@
       <label xml:lang="it" text="italiano" />
       <label xml:lang="de" text="Italienisch" />
       <label xml:lang="x-term" text="ita" />
-      <category ID="14996d3f-b489-4ccb-ad72-201d274c897b" />
     </category>
     <category ID="es">
       <label xml:lang="x-bibl" text="spa" />
