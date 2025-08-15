@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="rfc5646">
-  <label xml:lang="x-auth" text="rfc5646" />
-  <label xml:lang="de" text="Sprache" description="nach RFC 5646" />
   <label xml:lang="en" text="Language" description="as defined in RFC 5646" />
+  <label xml:lang="x-auth" text="rfc5646" />
   <label xml:lang="it" text="Lingue" description="RFC 5646" />
+  <label xml:lang="de" text="Sprache" description="nach RFC 5646" />
   <categories>
     <category ID="de">
       <label xml:lang="en" text="German" />
@@ -49,16 +49,16 @@
     </category>
     <category ID="nl">
       <label xml:lang="x-bibl" text="dut" />
-      <label xml:lang="en" text="Dutch" />
       <label xml:lang="it" text="olandese" />
-      <label xml:lang="x-term" text="nld" />
+      <label xml:lang="en" text="Dutch" />
       <label xml:lang="de" text="Holländisch" />
+      <label xml:lang="x-term" text="nld" />
     </category>
     <category ID="da">
       <label xml:lang="de" text="Dänisch" />
       <label xml:lang="x-bibl" text="dan" />
-      <label xml:lang="x-term" text="dan" />
       <label xml:lang="en" text="Danish" />
+      <label xml:lang="x-term" text="dan" />
       <label xml:lang="it" text="danese" />
     </category>
     <category ID="fi">
@@ -78,8 +78,8 @@
     <category ID="no">
       <label xml:lang="en" text="Norwegian" />
       <label xml:lang="x-bibl" text="nor" />
-      <label xml:lang="x-term" text="nor" />
       <label xml:lang="de" text="Norwegisch" />
+      <label xml:lang="x-term" text="nor" />
       <label xml:lang="it" text="norvegese" />
     </category>
     <category ID="pl">
@@ -114,8 +114,8 @@
       <label xml:lang="x-term" text="ron" />
       <label xml:lang="x-bibl" text="rum" />
       <label xml:lang="it" text="rumeno" />
-      <label xml:lang="en" text="Romanian" />
       <label xml:lang="de" text="Rumänisch" />
+      <label xml:lang="en" text="Romanian" />
     </category>
     <category ID="cs">
       <label xml:lang="en" text="Czech" />
@@ -134,8 +134,8 @@
     <category ID="sk">
       <label xml:lang="x-bibl" text="slo" />
       <label xml:lang="it" text="slovacco" />
-      <label xml:lang="x-term" text="slk" />
       <label xml:lang="en" text="Slovak" />
+      <label xml:lang="x-term" text="slk" />
       <label xml:lang="de" text="Slowakisch" />
     </category>
     <category ID="sr">
@@ -224,9 +224,9 @@
     </category>
     <category ID="zh">
       <label xml:lang="x-bibl" text="chi" />
+      <label xml:lang="de" text="Chinesisch" />
       <label xml:lang="en" text="Chinese" />
       <label xml:lang="x-term" text="zho" />
-      <label xml:lang="de" text="Chinesisch" />
       <label xml:lang="it" text="cinese" />
     </category>
     <category ID="ja">
@@ -246,9 +246,9 @@
     <category ID="rn">
       <label xml:lang="it" text="kirundi" />
       <label xml:lang="x-term" text="run" />
+      <label xml:lang="de" text="Kirundisch" />
       <label xml:lang="en" text="Rundi" />
       <label xml:lang="x-bibl" text="run" />
-      <label xml:lang="de" text="Kirundisch" />
     </category>
   </categories>
 </mycoreclass>
