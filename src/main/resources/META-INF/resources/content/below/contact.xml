@@ -1,57 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Kontakt">
-  <h2>Kontakt</h2>
-    <div class="row">
-      <div class="col-md-12">
+<MyCoReWebPage>
+    <section xml:lang="de" title="Kontakt">
+        <div>
+            <h2>Kontakt</h2>
 
-        <h3>Bibliotheksleitung (komm.)</h3>
-        <p>
-            <strong>Markus Schmiel</strong><br />
-            E-Mail: <span class="madress"> direktion.bibliothek [at] mh-hannover.de</span><br />
-            Telefon: +49 511/532-3338
-        </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Bibliotheksleitung</h3>
 
-        <h3>Publikationen</h3>
-        <p>
-          Für Fragen zur Publikation von elektronischen Dokumenten
-          (Artikel, Forschungsdaten und Dissertationen) wenden Sie sich bitte
-          an:
-        </p>
-        <p>
-            <strong>Alica Schweissing</strong><br />
-            E-Mail: <span class="madress">forschungsdaten.bibliothek [at] mh-hannover.de</span><br />
-            Telefon: +49 511/532-5578
-        </p>
-        <p>
-            <strong>Sabine Knauer</strong><br />
-            E-Mail: <span class="madress">forschungsdaten.bibliothek [at] mh-hannover.de</span><br />
-            Telefon: +49 511/532-5578
-        </p>
+                    <p>
+                        <strong>Dr. Kristina Hartmann</strong>
+                        <br/>
+                        E-Mail:
+                        <span class="madress">direktion.bibliothek [at] mh-hannover.de</span>
+                        <br/>
+                        Telefon: +49 511/532-3338
+                    </p>
 
-        <h3>Technik</h3>
-        <p>
-          Fragen zum Repositoryframework MyCoRe und dem Datenbankserver
-          beantwortet Ihnen die:
-        </p>
-        <p>
-            <strong>Verbundzentrale des GBV (VZG)</strong><br />
-            Platz der Göttinger Sieben 1<br />
-            37073 Göttingen<br />
-            Tel.: 0551 39 5207<br />
-            Fax: 0551 39 13980
-        </p>
-        <h4>Digitale Bibliothek, VZG-Reposis</h4>
-        <p>
-            Internet:
-            <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
-              https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
-            </a><br />
-            E-Mail: <span class="madress">dms-list [at] lists.gbv.de</span>
-        </p>
-      </div>
-    </div>
-  </section>
-  <meta>
-    <log lastEditor="Paul Borchert" date="2021-09-06" time="16:00" />
-  </meta>
+                    <p> </p>
+
+                    <h3>Stellv. Bibliotheksleitung</h3>
+
+                    <p>
+                        <strong>Markus Schmiel</strong>
+                        <br/>
+                        E-Mail:
+                        <span class="madress">direktion.bibliothek [at] mh-hannover.de</span>
+                        <br/>
+                        Telefon: +49 511/532-3338
+                    </p>
+
+                    <p> </p>
+
+                    <h3>Publikationen</h3>
+
+                    <p>Für Fragen zur Publikation von elektronischen Dokumenten (Artikel, Forschungsdaten,
+                        Dissertationen und Newsletter) wenden Sie sich bitte an:
+                    </p>
+
+                    <p>
+                        <strong>Nils Dille</strong>
+                        <br/>
+                        E-Mail:
+                        <span class="madress">forschungsdaten.bibliothek [at] mh-hannover.de</span>
+                        <br/>
+                        Telefon: +49 511/532-82655
+                    </p>
+
+                    <p>
+                        <strong>Sabine Knauer</strong>
+                        <br/>
+                        E-Mail:
+                        <span class="madress">forschungsdaten.bibliothek [at] mh-hannover.de</span>
+                        <br/>
+                        Telefon: +49 511/532-3543
+                    </p>
+
+                    <p> </p>
+
+                    <h3>Technik</h3>
+
+                    <p>Fragen zum Repositoryframework MyCoRe und dem Datenbankserver beantwortet Ihnen die:</p>
+
+                    <p>
+                        <strong>Verbundzentrale des GBV (VZG)</strong>
+                        <br/>
+                        Platz der Göttinger Sieben 1
+                        <br/>
+                        37073 Göttingen
+                        <br/>
+                        Tel.: 0551 39 5207
+                        <br/>
+                        Fax: 0551 39 13980
+                    </p>
+
+                    <h4>Digitale Bibliothek, VZG-Reposis</h4>
+
+                    <p>Internet:
+                        <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
+                            https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
+                        </a>
+                        <br/>
+                        E-Mail:
+                        <span class="madress">dms-list [at] lists.gbv.de</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <meta>
+        <log lastEditor="ndille" date="2025-01-15" time="09:44"/>
+    </meta>
 </MyCoReWebPage>

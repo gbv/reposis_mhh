@@ -1,70 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-<section xml:lang="de" title="Leitlinien">
+    <section xml:lang="de" title="Leitlinien">
+        <div>
+            <h2>Leitlinien</h2>
 
-  <h2>Leitlinien</h2>
-  <h3>RepoMed</h3>
-  <p>
-    RepoMed ist das institutionelle Publikationsrepositorium der Medizinischen Hochschule Hannover (MHH) und wird
-    von der Bibliothek betrieben. Sie wird hierbei technisch von der Verbundzentrale des Gemeinsamen Bibliotheksverbundes
-    Göttingen unterstützt (<a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">VZG-Reposis-Dienst</a>).
-  </p>
-  <p>
-    Mit RepoMed wird allen Wissenschaftlerinnen und Wissenschaftlern der MHH eine Möglichkeit geboten, wissenschaftliche
-    Dokumente und Publikationen dauerhaft und unter Einhaltung gängiger Standards der Öffentlichkeit zur Verfügung zu
-    stellen. RepoMed stellt somit den technischen und organisatorischen Rahmen zur Verfügung, des in der
-    <a href="Open-Access-Policy_MHH.pdf">Open Access Policy</a> der MHH empfohlenen „grünen Weges“.
-  </p>
-  <p>
-    Die in RepoMed abgelegten Dokumente erhalten dauerhafte Adressen (URN/DOI) und werden über nationale und
-    internationale Nachweisinstrumente und Suchmaschinen erschlossen.
-  </p>
+            <h3>RepoMed</h3>
 
-  <h3>Sammelspektrum</h3>
-  <ul>
-    <li>Wissenschaftliche Publikationen von MHH-Angehörigen (Erst- und Zweitveröffentlichungen)</li>
-    <li>Forschungsdaten von MHH-Angehörigen</li>
-    <li>Hochschulschriften der MHH (Dissertationen etc.)</li>
-    <li>Offizielle Veröffentlichungen der MHH (Jahresberichte, Newsletter etc.)</li>
-  </ul>
+            <p>RepoMed ist das institutionelle Publikationsrepositorium der Medizinischen Hochschule Hannover (MHH) und
+                wird von der Bibliothek betrieben. Sie wird hierbei technisch von der Verbundzentrale des Gemeinsamen
+                Bibliotheksverbundes Göttingen unterstützt (<a
+                        href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
+                    VZG-Reposis-Dienst</a>).
+            </p>
 
-  <h3>Dokumente</h3>
-  <p>
-    Die in RepoMed einzustellenden Dokumente müssen folgende Voraussetzungen erfüllen:
-  </p>
-  <ul>
-    <li>Kein dynamisches Dokument, Veränderungen werden als neue Version abgelegt.</li>
-    <li>Es darf kein Digital Rights Management System (DRM) hinterlegt sein.</li>
-    <li>Es kann mit einer <a href="https://creativecommons.org/share-your-work/">Creativ-Commons-Lizenz</a> versehen werden.</li>
-    <li>Es werden alle Dateiformate unterstützt, die Bibliothek empfiehlt jedoch zur Langzeitarchivierung geeignete Formate (z.B. PDF/A)</li>
-  </ul>
+            <p>Mit RepoMed wird allen Wissenschaftlerinnen und Wissenschaftlern der MHH eine Möglichkeit geboten,
+                wissenschaftliche Dokumente und Publikationen dauerhaft und unter Einhaltung gängiger Standards der
+                Öffentlichkeit zur Verfügung zu stellen. RepoMed stellt somit den technischen und organisatorischen
+                Rahmen zur Verfügung, des in der <a href="Open-Access-Policy_MHH.pdf">Open Access Policy</a> der MHH
+                empfohlenen „grünen Weges“.
+            </p>
 
-  <h3>Rechtliches</h3>
-  <p>
-    Vor der Veröffentlichung auf RepoMed ist zunächst zu prüfen, ob der Autorenvertrag eine Zweitveröffentlichung
-    erlaubt. Mit der Publikation auf RepoMed wird der Bibliothek ein einfaches (nicht ausschließliches), unbefristetes
-    Nutzungsrecht übertragen, während die Urheberrechte der Autorinnen und Autoren gewahrt bleiben. Eine weitere
-    Veröffentlichung des Dokumentes in einer Zeitschrift oder einem anderen Publikationsserver bleibt möglich. Die
-    Einhaltung von Urheber- und Verwertungsrechten liegt in der Verantwortung der Autorinnen und Autoren der Dokumente.
-  </p>
+            <h3>Sammelspektrum</h3>
 
-  <h3>Organisation</h3>
-  <p>
-    Die Verträge sowie weitere Informationen zum Veröffentlichen von
-    <strong>Publikationen, Forschungsdaten sowie Dissertationen</strong> finden
-    Sie auf unserer
-    <a href="https://www.mhh.de/bibliothek/publikationsserver">
-      Bibliotheks-Homepage
-    </a>.
-  </p>
-  <p>
-    Die elektronische Publikation auf RepoMed ist kostenfrei.
-  </p>
+            <ul>
+                <li>Wissenschaftliche Publikationen von MHH-Angehörigen (Erst- und Zweitveröffentlichungen)</li>
+                <li>Forschungsdaten von MHH-Angehörigen</li>
+                <li>Hochschulschriften der MHH (Dissertationen etc.)</li>
+                <li>Offizielle Veröffentlichungen der MHH (Jahresberichte, Newsletter etc.)</li>
+            </ul>
 
-</section>
+            <p>Die auf RepoMed veröffentlichten Publikationen werden durch die MHH-Bibliothek weder bewertet noch
+                zensiert. Wir distanzieren uns entschieden von allen diskriminierenden, rassistischen,
+                gewaltverherrlichenden, sexistischen oder nationalsozialistischen Inhalten.
+            </p>
 
-<meta>
-  <log date="2019-01-08" time="09:26" labelPath=" » Admin" lastEditor="Kathleen Neumann" />
-</meta>
+            <h3>Dokumente</h3>
+
+            <p>Die in RepoMed einzustellenden Dokumente müssen folgende Voraussetzungen erfüllen:</p>
+
+            <ul>
+                <li>Es werden alle Dateiformate unterstützt, die Bibliothek empfiehlt jedoch zur Langzeitarchivierung
+                    geeignete Formate (z.B. PDF/A).
+                </li>
+                <li>Im Zuge der Langzeitarchivierung kann es seitens der Bibliothek zu Formatsmigrationen der Dokumente
+                    kommen. Formatsmigrationen gelten nicht als Veränderung des elektronischen Dokuments.
+                </li>
+                <li>Die in RepoMed abgelegten Dokumente erhalten dauerhafte Adressen (URN/DOI) und werden über nationale
+                    und internationale Nachweisinstrumente und Suchmaschinen erschlossen.
+                </li>
+                <li>Es darf kein Digital Rights Management System (DRM) hinterlegt sein, das Dokument muss frei von
+                    technischen Schutzmaßnahmen sein.
+                </li>
+            </ul>
+
+            <h3>Rechtliches</h3>
+
+            <p>Vor der Veröffentlichung auf RepoMed ist zunächst zu prüfen, ob der Autorenvertrag eine
+                Zweitveröffentlichung erlaubt. In Deutschland ermöglicht §38 Abs. 4 UrhG die Zweitveröffentlichung bei
+                Einhaltung der gesetzlichen Voraussetzungen.
+            </p>
+
+            <p>Einmal veröffentlichte Dokumente werden nicht nachträglich verändert und können nur in Ausnahmefällen
+                wieder gelöscht werden. Sind Veränderungen nötig, wird das geänderte Dokument als neue Version
+                gespeichert. Die Mindestdauer der Dokumente beläuft sich auf 5 Jahre.
+            </p>
+
+            <p>Mit der Publikation auf RepoMed wird der Bibliothek ein einfaches (nicht ausschließliches), unbefristetes
+                Nutzungsrecht übertragen, während die Urheberrechte der Autorinnen und Autoren gewahrt bleiben. Eine
+                weitere Veröffentlichung des Dokumentes in einer Zeitschrift oder einem anderen Publikationsserver
+                bleibt möglich.
+            </p>
+
+            <p>Die Einhaltung von Urheber- und Verwertungsrechten liegt in der Verantwortung der Autorinnen und Autoren
+                der Dokumente. Weitere Informationen zu Urheber- und Verwertungsrechten finden Sie auf unserer <a
+                        href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/publizieren-open-access/urheberrecht-und-lizenzen">
+                    Homepage</a>.
+            </p>
+
+            <p>Ob und unter welcher CC-Lizenz unsere Autorinnen und Autoren Ihre Publikation auf RepoMed
+                veröffentlichen, entscheiden sie selbst. Wir empfehlen die Verwendung der <a
+                        href="https://creativecommons.org/share-your-work/">Creative Commons Lizenz
+                </a> (CC-Lizenz).
+            </p>
+
+            <p>Die Weitergabe der Metadaten erfolgt im Rahmen der gesetzlich geregelten Pflichtabgabe von
+                Netzpublikationen an die Deutsche Nationalbibliothek.
+            </p>
+
+            <p>Die MHH-Bibliothek ist berechtigt den Zugriff auf eine Publikation zu sperren, wenn konkrete
+                Anhaltspunkte für eine Verletzung von Rechten Dritter bestehen. Der Veröffentlichende wird darüber
+                benachrichtigt. Die Verantwortung für die Vermeidung von Interessenkonflikten verbleibt beim Inhaber der
+                Verwertungsrechte und liegt nicht bei der MHH-Bibliothek.
+            </p>
+
+            <p>Die MHH-Bibliothek haftet nicht für aus der Verletzung von Urheber- und Verwertungsrechten resultierende
+                Schäden. Die Autorinnen und Autoren versichern, die MHH-Bibliothek in Zweifelsfällen oder bei Entstehen
+                vermeintlicher oder tatsächlicher Rechtsverletzungen umgehend in Kenntnis zu setzen.
+            </p>
+
+            <h3>Organisation</h3>
+
+            <p>Die Verträge sowie weitere Informationen zum Veröffentlichen von <strong>Publikationen, Forschungsdaten
+                sowie Dissertationen
+            </strong> finden Sie auf unserer <a
+                    href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/publizieren-open-access/publikationsserver">
+                Bibliotheks-Homepage</a>.
+            </p>
+
+            <p>Die elektronische Publikation auf RepoMed ist kostenfrei.</p>
+        </div>
+    </section>
+    <meta>
+        <log lastEditor="schweial" date="2023-09-12" time="08:56"/>
+    </meta>
 </MyCoReWebPage>
