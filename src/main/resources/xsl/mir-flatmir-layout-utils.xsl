@@ -103,7 +103,7 @@
           <div class="mhh-footer-contact">
             <h4>RepoMed</h4>
             <p>
-              Telefon: +49 511/532-5578<br/>
+              Telefon: +49 511/532-82655<br/>
               E-Mail:
               <a href="mailto:forschungsdaten.bibliothek@mh-hannover.de">
                 forschungsdaten.bibliothek@mh-hannover.de
