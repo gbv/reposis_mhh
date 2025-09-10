@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-<section xml:lang="de" title="Vertragsbedingungen">
-  <h2>Vertragsbedingungen</h2>
-  <p>
-    Zum Veröffentlichen Ihrer zu publizierenden Dokumente stehen Ihnen
-    drei Verträge zur Verfügung:
-  </p>
-  <ul>
-    <li>Vertrag zum Veröffentlichen von wissenschaftlichen Publikationen</li>
-    <li>Vertrag zum Veröffentlichen von Forschungsdaten</li>
-    <li>Einwilligungserklärung zum Veröffentlichen von Dissertationen</li>
-  </ul>
-  <p>
-    Sie übertragen der MHH-Bibliothek das einfache (nicht-ausschließliche),
-    zeitlich unbefristete Recht, Ihre genannte Publikation oder Ihre genannten
-    Forschungsdaten auf RepoMed zu speichern und öffentlich zugänglich zu machen.
-    Sie versichern uns, über die urheberrechtlichen Nutzungsrechte am Werk zu
-    verfügen und mit der Veröffentlichung des Dokumentes oder einzelner
-    Bestandteile (z.B. Bilder, Sonderdrucke) keine Rechte Dritter zu verletzen.
-    Zudem sind alle Daten, die von möglichen Patienten oder Probanden erhoben
-    wurden, vollständig anonymisiert, damit es entsprechend der gegebenen
-    Einwilligung zu keiner Veröffentlichung von personenbezogenen Daten dieser
-    betroffenen Personen kommt. Die MHH-Bibliothek ist berechtigt den Zugriff
-    auf eine Publikation oder auf Forschungsdaten zu sperren, wenn konkrete
-    Anhaltspunkte für eine Verletzung von Rechten Dritter bestehen. Die
-    Verantwortung für die Vermeidung von Interessenkonflikten verbleibt beim
-    Inhaber der Verwertungsrechte und liegt nicht bei der MHH-Bibliothek. Sie
-    werden die MHH von allen Ansprüchen Dritter freistellen, die auf einer
-    Verletzung von Rechten aufgrund der Veröffentlichung der Publikation oder
-    der Forschungsdaten im Repositorium der MHH beruhen.
-  </p>
-  <p>
-    Nähere Details entnehmen Sie bitte den Verträgen auf unserer
-    <a href="https://www.mhh.de/bibliothek/publikationsserver">Homepage</a>.
-  </p>
+    <section xml:lang="de" title="Vertragsbedingungen">
+        <div>
+            <h2>Vertragsbedingungen</h2>
 
-</section>
-<meta>
-  <log date="2019-01-08" time="09:20" labelPath=" » Admin" lastEditor="Kathleen Neumann" />
-</meta>
+            <p>Zum Veröffentlichen Ihrer zu publizierenden Dokumente stehen Ihnen drei Verträge zur Verfügung:</p>
+
+            <ul>
+                <li>Vertrag zum Veröffentlichen von wissenschaftlichen Publikationen</li>
+                <li>Vertrag zum Veröffentlichen von Forschungsdaten</li>
+                <li>Einwilligungserklärung zum Veröffentlichen von Dissertationen</li>
+            </ul>
+
+            <p>Sie übertragen der MHH-Bibliothek das einfache (nicht-ausschließliche), zeitlich unbefristete Recht, Ihre
+                genannte Publikation oder Ihre genannten Forschungsdaten auf RepoMed zu speichern und öffentlich
+                zugänglich zu machen. Sie versichern uns, über die urheberrechtlichen Nutzungsrechte am Werk zu verfügen
+                und mit der Veröffentlichung des Dokumentes oder einzelner Bestandteile (z.B. Bilder, Sonderdrucke)
+                keine Rechte Dritter zu verletzen. Zudem sind alle Daten, die von möglichen Patienten oder Probanden
+                erhoben wurden, vollständig anonymisiert, damit es entsprechend der gegebenen Einwilligung zu keiner
+                Veröffentlichung von personenbezogenen Daten dieser betroffenen Personen kommt. Die MHH-Bibliothek ist
+                berechtigt den Zugriff auf eine Publikation oder auf Forschungsdaten zu sperren, wenn konkrete
+                Anhaltspunkte für eine Verletzung von Rechten Dritter bestehen. Die Verantwortung für die Vermeidung von
+                Interessenkonflikten verbleibt beim Inhaber der Verwertungsrechte und liegt nicht bei der
+                MHH-Bibliothek. Sie werden die MHH von allen Ansprüchen Dritter freistellen, die auf einer Verletzung
+                von Rechten aufgrund der Veröffentlichung der Publikation oder der Forschungsdaten im Repositorium der
+                MHH beruhen.
+            </p>
+
+            <p>Nähere Details entnehmen Sie bitte den Verträgen auf unserer <a
+                    href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/publizieren-open-access/publikationsserver">
+                Homepage</a>.
+            </p>
+        </div>
+    </section>
+    <meta>
+        <log lastEditor="schweial" date="2022-09-27" time="07:34"/>
+    </meta>
 </MyCoReWebPage>
