@@ -208,6 +208,16 @@
       <label xml:lang="it" text="Rivista" />
       <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical" />
     </category>
+    <category ID="issue">
+      <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart" />
+      <label xml:lang="x-hosts" text="journal standalone" />
+      <label xml:lang="en" text="Issue" />
+      <label xml:lang="de" text="Zeitschriftenheft" />
+    </category>
+    <category ID="handout">
+      <label xml:lang="de" text="Handreichung" />
+      <label xml:lang="en" text="handout" />
+    </category>
     <category ID="newspaper">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="it" text="Giornale" />
@@ -271,7 +281,7 @@
       <label xml:lang="de" text="Bild" />
       <label xml:lang="en" text="Picture" />
     </category>
-    <category ID="broadcasting">
+  <category ID="broadcasting">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:videorecording diniPublType:report" />
       <label xml:lang="it" text="Programma televisivo o radiofonico" />
@@ -285,5 +295,5 @@
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:lecture" />
       <label xml:lang="it" text="Lezione" />
     </category>
-  </categories>
+    </categories>
 </mycoreclass>
