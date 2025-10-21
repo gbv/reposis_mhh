@@ -1,88 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Erklärung zur Barrierefreiheit">
-        <div class="row">
-            <div class="col-md-10" lang="de">
-                <h1>Erklärung zur Barrierefreiheit</h1>
+<MyCoReWebPage><section xml:lang="de" title="Erklärung zur Barrierefreiheit"><div class="row">
+  <div class="col-md-10" lang="de">
+    <h1>Erklärung zur Barrierefreiheit</h1>
 
-                <p>Informationen über die Zugänglichkeit dieser Webseiten gemäß § 9b NBGG sowie über diesbezügliche
-                    Kontaktmöglichkeiten.
-                </p>
+    <p>Informationen über die Zugänglichkeit dieser Webseiten gemäß § 9b NBGG sowie über diesbezügliche Kontaktmöglichkeiten.</p>
 
-                <p>Diese Erklärung zur Barrierefreiheit gilt für die Webseiten und Inhalte des Publikationsservers
-                    RepoMed, die unter der Domain mhh-publikationsserver.gbv.de erreichbar sind.
-                </p>
+    <p>Diese Erklärung zur Barrierefreiheit gilt für die Webseiten und Inhalte des Publikationsservers RepoMed, die unter der Domain mhh-publikationsserver.gbv.de erreichbar sind.</p>
 
-                <p> </p>
+    <p> </p>
 
-                <h3>Stand der Vereinbarkeit mit den Anforderungen</h3>
+    <h3>Stand der Vereinbarkeit mit den Anforderungen</h3>
 
-                <p>Diese Webseiten sind mit den Vorgaben der harmonierten europäischen Norm EN 301 549 V2.1.2 (08-2018)
-                    größtenteils vereinbar.
-                </p>
+    <p>Diese Webseiten sind mit den Vorgaben der harmonierten europäischen Norm EN 301 549 V2.1.2 (08-2018) größtenteils vereinbar.</p>
 
-                <p> </p>
+    <p> </p>
 
-                <h3>Nicht barrierefreie Inhalte</h3>
+    <h3>Nicht barrierefreie Inhalte</h3>
 
-                <p>Die auf dem Publikationsserver veröffentlichten Dokumente sind teilweise nicht barrierefrei und
-                    können nicht automatisiert in ein barrierefreies Format umgewandelt werden, da
-                </p>
+    <p>Die auf dem Publikationsserver veröffentlichten Dokumente sind teilweise nicht barrierefrei und können nicht automatisiert in ein barrierefreies Format umgewandelt werden, da</p>
 
-                <ul>
-                    <li>die Medizinische Hochschule Hannover nicht das Recht auf die Änderung der Dateien besitzt,</li>
-                    <li>die Ausgangsformate nicht zur Verfügung stehen,</li>
-                    <li>die Zitierfähigkeit der Dokumente nicht mehr gewährleistet ist.</li>
-                </ul>
-                Eine nachträgliche manuelle Bearbeitung der Dokumente ist unverhältnismäßig arbeitsaufwendig und wird
-                nur in Ausnahmefällen durchgeführt.
+    <ul>
+      <li>die Medizinische Hochschule Hannover nicht das Recht auf die Änderung der Dateien besitzt,</li>
+      <li>die Ausgangsformate nicht zur Verfügung stehen,</li>
+      <li>die Zitierfähigkeit der Dokumente nicht mehr gewährleistet ist.</li>
+    </ul>
+    Eine nachträgliche manuelle Bearbeitung der Dokumente ist unverhältnismäßig arbeitsaufwendig und wird nur in Ausnahmefällen durchgeführt.
 
-                <p> </p>
+    <p> </p>
 
-                <p>Der Publikationsserver richtet sich an Wissenschaftler aus den jeweiligen Fachbereichen. Aufgrund der
-                    komplexen Inhalte kann eine einfache Sprachgestaltung nicht umgesetzt werden und es werden gängige
-                    Fachbegriffe und Abkürzungen genutzt.
-                </p>
+    <p>Der Publikationsserver richtet sich an Wissenschaftler aus den jeweiligen Fachbereichen. Aufgrund der komplexen Inhalte kann eine einfache Sprachgestaltung nicht umgesetzt werden und es werden gängige Fachbegriffe und Abkürzungen genutzt.</p>
 
-                <p> </p>
+    <p> </p>
 
-                <h3>Erstellung dieser Erklärung zur Barrierefreiheit</h3>
+    <h3>Erstellung dieser Erklärung zur Barrierefreiheit</h3>
 
-                <p>Diese Erklärung wurde am 22.09.2020 erstellt. Die Einschätzung basiert auf Selbstbewertung.</p>
+    <p>Diese Erklärung wurde am 22.09.2020 erstellt. Die Einschätzung basiert auf Selbstbewertung.</p>
 
-                <p> </p>
+    <p> </p>
 
-                <h3>Kontakt und Feedback</h3>
+    <h3>Kontakt und Feedback</h3>
 
-                <p>Über folgenden Kontakt können Sie Mängel in Bezug auf die Einhaltung der
-                    Barrierefreiheitsanforderungen mitteilen:
-                    <br/>
-                    information.bibliothek@mh-hannover.de
-                </p>
+    <p>Über folgenden Kontakt können Sie Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen mitteilen:<br />
+      information.bibliothek@mh-hannover.de</p>
 
-                <p> </p>
+    <p> </p>
 
-                <h3>Schlichtungsverfahren</h3>
+    <h3>Schlichtungsverfahren</h3>
 
-                <p>Bei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie bei der
-                    Schlichtungsstelle, eingerichtet bei der Landesbeauftragten für Menschen mit Behinderungen in
-                    Niedersachsen, einen Antrag auf Einleitung eines Schlichtungsverfahrens nach dem niedersächsischen
-                    Behindertengleichstellungsgesetz (NBGG) stellen. Die Schlichtungsstelle nach § 9 d NBGG hat die
-                    Aufgabe, Streitigkeiten zwischen Menschen mit Behinderungen und öffentlichen Stellen des Landes
-                    Niedersachsen, zum Thema Barrierefreiheit in der IT, beizulegen. Das Schlichtungsverfahren ist
-                    kostenlos. Es muss kein Rechtsbeistand eingeschaltet werden.
-                </p>
+    <p>Bei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie bei der Schlichtungsstelle, eingerichtet bei der Landesbeauftragten für Menschen mit Behinderungen in Niedersachsen, einen Antrag auf Einleitung eines Schlichtungsverfahrens nach dem niedersächsischen Behindertengleichstellungsgesetz (NBGG) stellen. Die Schlichtungsstelle nach § 9 d NBGG hat die Aufgabe, Streitigkeiten zwischen Menschen mit Behinderungen und öffentlichen Stellen des Landes Niedersachsen, zum Thema Barrierefreiheit in der IT, beizulegen. Das Schlichtungsverfahren ist kostenlos. Es muss kein Rechtsbeistand eingeschaltet werden.</p>
 
-                <p>Direkt kontaktieren können Sie die Schlichtungsstelle unter:
-                    <br/>
-                    Telefon: 0511/120-4010
-                    <br/>
-                    E-Mail: schlichtungsstelle@ms.niedersachsen.de
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-        <log lastEditor="ndille" date="2025-01-15" time="09:51"/>
-    </meta>
-</MyCoReWebPage>
+    <p>Direkt kontaktieren können Sie die Schlichtungsstelle unter:<br />
+      Telefon: 0511/120-4010<br />
+      E-Mail: schlichtungsstelle@ms.niedersachsen.de</p>
+  </div>
+</div>
+</section><meta><log lastEditor="ndille" date="2025-01-15" time="09:51" /></meta></MyCoReWebPage>
