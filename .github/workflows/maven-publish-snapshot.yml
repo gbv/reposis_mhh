@@ -8,6 +8,7 @@ on:
     branches:
       - 'main'
       - '2021.06.x'
+      - 'issues/MHH-43-migrate_to_2023'
 
 jobs:
   build:
