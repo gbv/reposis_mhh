@@ -313,7 +313,7 @@
         <label xml:lang="en" text="TwinCore - Institute for Molecular Bacteriology" />
         <label xml:lang="de" text="TwinCore - Molekulare Bakteriologie" />
       </category>
-      </category>
+    </category>
     <category ID="central_facilities">
       <label xml:lang="de" text="Zentrale Einrichtungen" />
       <label xml:lang="en" text="Central Facilities" />
@@ -519,7 +519,7 @@
       <category ID="central_research_workshops">
         <label xml:lang="de" text="Zentrale Forschungswerkstätten" />
       </category>
-    <category ID="a912c4da-85ba-46c9-bad9-e59bc04810ac">
+      <category ID="a912c4da-85ba-46c9-bad9-e59bc04810ac">
         <label xml:lang="de" text="Zentrales Tierlabor" />
       </category>
       <category ID="5203de4d-c8c6-491f-b69e-effad8bc7e04">
@@ -541,6 +541,6 @@
         <label xml:lang="de" text="ZIB" />
       </category>
 
-      </category>
+    </category>
   </categories>
 </mycoreclass>
