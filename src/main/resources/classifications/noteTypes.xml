@@ -3,7 +3,7 @@
   <label xml:lang="de" text="Kommentartyp" />
   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/noteTypes" />
   <label xml:lang="en" text="Type of note" />
-  <url xlink:href="http://www.loc.gov/standards/mods/mods-notes.html" xlink:type="locator" />
+  <url xlink:type="locator" xlink:href="http://www.loc.gov/standards/mods/mods-notes.html" />
   <categories>
     <category ID="EDMA">
       <label xml:lang="de" text="EDMA" />
