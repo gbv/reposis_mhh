@@ -281,7 +281,7 @@
       <label xml:lang="de" text="Bild" />
       <label xml:lang="en" text="Picture" />
     </category>
-  <category ID="broadcasting">
+    <category ID="broadcasting">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:videorecording diniPublType:report" />
       <label xml:lang="it" text="Programma televisivo o radiofonico" />
@@ -295,5 +295,5 @@
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:lecture" />
       <label xml:lang="it" text="Lezione" />
     </category>
-    </categories>
+  </categories>
 </mycoreclass>
