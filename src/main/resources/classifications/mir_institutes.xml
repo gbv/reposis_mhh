@@ -19,11 +19,25 @@
     <category ID="hospitals_institutes">
       <label xml:lang="en" text="Hospitals and Institutes" />
       <label xml:lang="de" text="Kliniken und Institute" />
+      <category ID="9566">
+        <label xml:lang="en" text="Logopädieschule" description="9566" />
+        <label xml:lang="de" text="Logopädieschule" description="9566" />
+      </category>
+      <category ID="9136">
+        <label xml:lang="de" text="Lehr- und Lernforschung" />
+      </category>
       <category ID="7180">
         <label xml:lang="de" text="Arbeitsbereich Klinische Psychologie und Sexualmedizin" />
       </category>
+      <category ID="1122">
+        <label xml:lang="de" text="Core Facility Qualitätsmanagement Tx" />
+      </category>
       <category ID="8891">
         <label xml:lang="de" text="Experimentelle Otologie" />
+      </category>
+      <category ID="9210">
+        <label xml:lang="de" text="Forschungs- und Lehreinheit Hebammenwissenschaft" description="9210" />
+        <label xml:lang="en" text="Midwifery Research and Education Unit" />
       </category>
       <category ID="5430">
         <label xml:lang="de" text="Forschungs- und Lehreinheit Medizinische Psychologie" />
@@ -99,7 +113,7 @@
         <label xml:lang="en" text="Institute of Clinical Biochemistry" />
       </category>
       <category ID="8110">
-        <label xml:lang="de" text="Institut für Klinische Chemie" />
+        <label xml:lang="de" text="Institut für Klinische Chemie und Zentrallabor" />
       </category>
       <category ID="5350">
         <label xml:lang="de" text="Institut für Klinische Pharmakologie" />
@@ -151,7 +165,8 @@
         <label xml:lang="en" text="Institute of Transfusion Medicine and Transplant Engineering" />
       </category>
       <category ID="8602">
-        <label xml:lang="de" text="Institut für Versuchstierkunde" />
+        <label xml:lang="en" text="Institute for Laboratory Animal Science and Central Animal Laboratory" />
+        <label xml:lang="de" text="Institut für Versuchstierkunde und Zentrales Tierlaboratorium" />
       </category>
       <category ID="5230">
         <label xml:lang="de" text="Institut für Virologie" />
@@ -189,20 +204,14 @@
         <label xml:lang="en" text="Department of Hematology, Hemostasis, Oncology, and Stem Cell Transplantation" />
         <label xml:lang="de" text="Klinik für Hämatologie, Hämostaseologie, Onkologie u. Stammzelltransplantation" />
       </category>
-
       <category ID="6210">
         <label xml:lang="de" text="Klinik für Herz-, Thorax-, Transplantations- und Gefäßchirurgie" />
         <label xml:lang="en" text="Department of Cardiothoracic, Transplantation and Vascular Surgery" />
       </category>
-      <category ID="6830">
-        <label xml:lang="de" text="Klinik für Rheumatologie und Immunologie" />
-      </category>
-
       <category ID="6880">
         <label xml:lang="de" text="Klinik für Kardiologie und Angiologie" />
         <label xml:lang="en" text="Department of Cardiology and Angiology" />
       </category>
-
       <category ID="7730">
         <label xml:lang="de" text="Klinik für Kieferorthopädie" />
         <label xml:lang="en" text="Department of Orthodontics" />
@@ -264,6 +273,9 @@
       <category ID="6250">
         <label xml:lang="de" text="Klinik für Rekonstruktive Gesichtschirurgie" />
       </category>
+      <category ID="6830">
+        <label xml:lang="de" text="Klinik für Rheumatologie und Immunologie" />
+      </category>
       <category ID="8240">
         <label xml:lang="de" text="Klinik für Strahlentherapie und Spezielle Onkologie" />
         <label xml:lang="en" text="Department of Radiotherapy (and Special Oncology)" />
@@ -283,8 +295,11 @@
       <category ID="8420">
         <label xml:lang="de" text="Peter L.Reichertz Institut für Medizinische Informatik der TU Braunschweig und der MHH" />
       </category>
+      <category ID="9050">
+        <label xml:lang="de" text="Stabsstelle für Interdisziplinäre Notfall- und Katastrophenmedizin" />
+      </category>
       <category ID="9651">
-        <label xml:lang="de" text="TwinCore - Experimentelle Infektionsforschung" />
+        <label xml:lang="de" text="TwinCore - Experimentelle und klinische Infektionsforschung" />
       </category>
       <category ID="9652">
         <label xml:lang="de" text="TwinCore - Experimentelle Virologie" />
@@ -292,36 +307,19 @@
       <category ID="9653">
         <label xml:lang="de" text="TwinCore - Infektionsimmunologie" />
       </category>
-      <category ID="9566">
-        <label xml:lang="en" text="Logopädieschule" description="9566" />
-        <label xml:lang="de" text="Logopädieschule" description="9566" />
-      </category>
-      <category ID="9136">
-        <label xml:lang="de" text="Lehr- und Lernforschung" />
-      </category>
-      <category ID="1122">
-        <label xml:lang="de" text="Core Facility Qualitätsmanagement Tx" />
-      </category>
-      <category ID="9210">
-        <label xml:lang="de" text="Forschungs- und Lehreinheit Hebammenwissenschaft" description="9210" />
-        <label xml:lang="en" text="Midwifery Research and Education Unit" />
-      </category>
-      <category ID="9050">
-        <label xml:lang="de" text="Stabsstelle für Interdisziplinäre Notfall- und Katastrophenmedizin" />
-      </category>
       <category ID="9654">
         <label xml:lang="en" text="TwinCore - Institute for Molecular Bacteriology" />
         <label xml:lang="de" text="TwinCore - Molekulare Bakteriologie" />
       </category>
-      </category>
+    </category>
     <category ID="central_facilities">
-      <label xml:lang="de" text="Zentrale Einrichtungen" />
       <label xml:lang="en" text="Central Facilities" />
+      <label xml:lang="de" text="Zentrale Einrichtungen" />
       <category ID="international_office">
         <label xml:lang="de" text="Akademisches Auslandsamt" />
       </category>
       <category ID="asta">
-        <label xml:lang="de" text="AstA" />
+        <label xml:lang="de" text="AStA" />
       </category>
       <category ID="respiratory_research">
         <label xml:lang="de" text="Atemwegsforschung" />
@@ -350,6 +348,12 @@
       </category>
       <category ID="6876">
         <label xml:lang="de" text="DZL: Lungenforschung" />
+      </category>
+      <category ID="5203de4d-c8c6-491f-b69e-effad8bc7e04">
+        <label xml:lang="de" text="Exzellenzcluster RESIST" />
+      </category>
+      <category ID="9125">
+        <label xml:lang="de" text="Forschungsdekanat" />
       </category>
       <category ID="2180">
         <label xml:lang="de" text="FOR" />
@@ -419,6 +423,12 @@
       </category>
       <category ID="hospital_management">
         <label xml:lang="de" text="Krankenhausmanagement" />
+      </category>
+      <category ID="6712">
+        <label xml:lang="de" text="LEBAO" />
+      </category>
+      <category ID="8700">
+        <label xml:lang="de" text="MHH Information Technology (MIT)" />
       </category>
       <category ID="nife">
         <label xml:lang="de" text="NIFE" />
@@ -513,34 +523,21 @@
       <category ID="zfe_mass_spectrometric_protein_analysis">
         <label xml:lang="de" text="Zentrale Forschungseinrichtung Massenspektrometrische Proteinanalytik" />
       </category>
+      <category ID="a21628cc-d9e6-40af-bd8a-6e11a36597d6">
+        <label xml:lang="de" text="Zentrale Forschungseinrichtung Strukturbiochemie" />
+      </category>
       <category ID="zfe_transcriptomics">
         <label xml:lang="de" text="Zentrale Forschungseinrichtung Transcriptomics" />
       </category>
       <category ID="central_research_workshops">
         <label xml:lang="de" text="Zentrale Forschungswerkstätten" />
       </category>
-    <category ID="a912c4da-85ba-46c9-bad9-e59bc04810ac">
-        <label xml:lang="de" text="Zentrales Tierlabor" />
-      </category>
-      <category ID="5203de4d-c8c6-491f-b69e-effad8bc7e04">
-        <label xml:lang="de" text="Exzellenzcluster RESIST" />
-      </category>
-      <category ID="6712">
-        <label xml:lang="de" text="LEBAO" />
-      </category>
-      <category ID="a21628cc-d9e6-40af-bd8a-6e11a36597d6">
-        <label xml:lang="de" text="Zentrale Forschungseinrichtung Strukturbiochemie" />
-      </category>
       <category ID="052fea9c-68cf-4dd0-a62e-9db8ebc7b3b6">
         <label xml:lang="de" text="Zentrum für Individualisierte Infektionemedizin (CiiM)" />
-      </category>
-      <category ID="8700">
-        <label xml:lang="de" text="MHH Information Technology (MIT)" />
       </category>
       <category ID="zip">
         <label xml:lang="de" text="ZIB" />
       </category>
-
-      </category>
+    </category>
   </categories>
 </mycoreclass>

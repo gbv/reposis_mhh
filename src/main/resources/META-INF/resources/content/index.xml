@@ -1,207 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-    <section xml:lang="de" title="Willkommen bei RepoMed">
-        <div>
-            <div class="jumboone">
-                <div class="mhh-background-tile">
-                    <h1>Herzlich willkommen bei RepoMed</h1>
+<MyCoReWebPage><section xml:lang="de" title="Willkommen bei RepoMed"><div>
+<div class="jumboone">
+<div class="mhh-background-tile">
+<h1>Herzlich willkommen bei RepoMed</h1>
 
-                    <p>Der Publikationsserver der Medizinischen Hochschule Hannover dient der kostenfreien Open Access
-                        Veröffentlichung wissenschaftlicher Publikationen von MHH-Wissenschaftler:innen sowie
-                        MHH-Studierenden.
-                    </p>
-                </div>
-            </div>
+<p>Der Publikationsserver der Medizinischen Hochschule Hannover dient der kostenfreien Open Access Veröffentlichung wissenschaftlicher Publikationen von MHH-Wissenschaftler:innen sowie MHH-Studierenden.</p>
+</div>
+</div>
 
-            <div class="jumbotwo">
-                <div class="row row-cols-1 row-cols-lg-2">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Recherche</h5>
+<div class="jumbotwo">
+<div class="row row-cols-1 row-cols-lg-2">
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Recherche</h5>
 
-                                <p class="card-text">Wenn Sie nach Artikeln, Forschungsdaten, Hochschulschriften und
-                                    Anderem von MHH-Wissenschaftler:innen als auch MHH-Studierenden recherchieren
-                                    möchten, nutzen Sie die <a href="search/simple.xed">„einfache-“</a> oder die <a
-                                            href="search/complex.xed">„komplexe Suche“</a>.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">Wenn Sie nach Artikeln, Forschungsdaten, Hochschulschriften und Anderem von MHH-Wissenschaftler:innen als auch MHH-Studierenden recherchieren möchten, nutzen Sie die <a href="search/simple.xed"> „einfache-“ </a> oder die <a href="search/complex.xed"> „komplexe Suche“ </a>.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Veröffentlichen &amp; Archivieren</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Veröffentlichen &amp; Archivieren</h5>
 
-                                <p class="card-text">Als MHH-Wissenschaftler:in sowie MHH-Studierende haben Sie die
-                                    Möglichkeit Ihre wissenschaftlichen Publikationen, Forschungsdaten sowie
-                                    Kongressbeiträge und offiziellen MHH-Veröffentlichungen zugänglich zu machen und
-                                    dauerhaft zu archivieren.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">Als MHH-Wissenschaftler:in sowie MHH-Studierende haben Sie die Möglichkeit Ihre wissenschaftlichen Publikationen, Forschungsdaten sowie Kongressbeiträge und offiziellen MHH-Veröffentlichungen zugänglich zu machen und dauerhaft zu archivieren.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Wissenschaftliche Publikationen</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Wissenschaftliche Publikationen</h5>
 
-                                <p class="card-text">Sie haben die Möglichkeit Ihre wissenschaftlichen Publikationen im
-                                    Repositorium bereitzustellen, weitere Informationen hierzu finden Sie auf unserer <a
-                                            href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/publizieren-open-access/publikationsserver">
-                                        Bibliotheks-Homepage</a>.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">Sie haben die Möglichkeit Ihre wissenschaftlichen Publikationen im Repositorium bereitzustellen, weitere Informationen hierzu finden Sie auf unserer <a href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/publizieren-open-access/publikationsserver"> Bibliotheks-Homepage </a>.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Forschungsdaten</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Forschungsdaten</h5>
 
-                                <p class="card-text">Sie haben ebenfalls die Möglichkeit Ihre Forschungsdaten im
-                                    Repositorium bereitzustellen, weitere Informationen hierzu finden Sie auf unserer <a
-                                            href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/forschungsdatenmanagement">
-                                        Bibliotheks- Homepage</a>.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">Sie haben ebenfalls die Möglichkeit Ihre Forschungsdaten im Repositorium bereitzustellen, weitere Informationen hierzu finden Sie auf unserer <a href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/forschungsdatenmanagement"> Bibliotheks- Homepage </a>.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Dissertationen</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Dissertationen</h5>
 
-                                <p class="card-text">Gerne können Sie bei uns auch Ihre Dissertation veröffentlichen.
-                                    Weitere Informationen hierzu finden Sie auf unserer <a
-                                            href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/dissertationen">
-                                        Bibliotheks-Homepage</a>.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">Gerne können Sie bei uns auch Ihre Dissertation veröffentlichen. Weitere Informationen hierzu finden Sie auf unserer <a href="https://www.mhh.de/bibliothek/so-nutzen-sie-die-bibliothek/schreiben-publizieren/dissertationen"> Bibliotheks-Homepage </a>.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Kontakt</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Kontakt</h5>
 
-                                <p class="card-text">Falls Sie Fragen haben sollten, sehen Sie bitte nicht davon ab, uns
-                                    per <a href="mailto:forschungsdaten.bibliothek@mh-hannover.de ">E-Mail</a> oder <a
-                                            href="tel:+4951153282655">telefonisch</a>zu kontaktieren. Wir helfen Ihnen
-                                    gerne bei Fragen weiter.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section xml:lang="en" title="Welcome to RepoMed">
-        <div>
-            <div class="jumboone">
-                <div class="mhh-background-tile">
-                    <h1>Welcome to RepoMed</h1>
+<p class="card-text">Falls Sie Fragen haben sollten, sehen Sie bitte nicht davon ab, uns per <a href="mailto:forschungsdaten.bibliothek@mh-hannover.de ">E-Mail</a> oder <a href="tel:+4951153282655">telefonisch </a>zu kontaktieren. Wir helfen Ihnen gerne bei Fragen weiter.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section xml:lang="en" title="Welcome to RepoMed"><div>
+<div class="jumboone">
+<div class="mhh-background-tile">
+<h1>Welcome to RepoMed</h1>
 
-                    <p>The publication server of the Hannover Medical School serves the free Open Access publication of
-                        scientific publications by MHH scientists and MHH students.
-                    </p>
-                </div>
-            </div>
+<p>The publication server of the Hannover Medical School serves the free Open Access publication of scientific publications by MHH scientists and MHH students.</p>
+</div>
+</div>
 
-            <div class="jumbotwo">
-                <div class="row row-cols-1 row-cols-lg-2">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Search</h5>
+<div class="jumbotwo">
+<div class="row row-cols-1 row-cols-lg-2">
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Search</h5>
 
-                                <p class="card-text">If you want to search for articles, research data, university
-                                    theses and other publications by MHH scientists and MHH students, use the ‘<a
-                                            href="search/simple.xed">simple</a>’ or ‘<a href="search/complex.xed">
-                                        complex</a>’ search.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">If you want to search for articles, research data, university theses and other publications by MHH scientists and MHH students, use the ‘<a href="search/simple.xed">simple</a>’ or ‘<a href="search/complex.xed">complex</a>’ search.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Publish &amp; Archive</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Publish &amp; Archive</h5>
 
-                                <p class="card-text">As an MHH scientist or MHH student, you can make your scientific
-                                    publications, research data, conference papers and official MHH publications
-                                    accessible and archive them permanently.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">As an MHH scientist or MHH student, you can make your scientific publications, research data, conference papers and official MHH publications accessible and archive them permanently.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Scientific publications</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Scientific publications</h5>
 
-                                <p class="card-text">You have the possibility to make your scientific publications
-                                    available in the repository, further information can be found on our <a
-                                            href="https://www.mhh.de/en/library/how-to-use-the-library/write-and-publish/publishing-open-access/publication-server">
-                                        library homepage</a>.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">You have the possibility to make your scientific publications available in the repository, further information can be found on our <a href="https://www.mhh.de/en/library/how-to-use-the-library/write-and-publish/publishing-open-access/publication-server">library homepage</a>.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Research data</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Research data</h5>
 
-                                <p class="card-text">You also have the option of making your research data available in
-                                    the repository; you can find further information on this on our <a
-                                            href="https://www.mhh.de/en/library/how-to-use-the-library/write-and-publish/research-data-management">
-                                        library homepage</a>.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">You also have the option of making your research data available in the repository; you can find further information on this on our <a href="https://www.mhh.de/en/library/how-to-use-the-library/write-and-publish/research-data-management">library homepage</a>.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Dissertations</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Dissertations</h5>
 
-                                <p class="card-text">You are also welcome to publish your dissertation with us. Further
-                                    information can be found on our <a
-                                            href="https://www.mhh.de/en/library/how-to-use-the-library/write-and-publish/dissertations">
-                                        library homepage</a>.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+<p class="card-text">You are also welcome to publish your dissertation with us. Further information can be found on our <a href="https://www.mhh.de/en/library/how-to-use-the-library/write-and-publish/dissertations">library homepage</a>.</p>
+</div>
+</div>
+</div>
 
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Contact us</h5>
+<div class="col">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Contact us</h5>
 
-                                <p class="card-text">If you have any questions, please do not hesitate to contact us by <a
-                                        href="mailto:forschungsdaten.bibliothek@mh-hannover.de ">e-mail
-                                </a> or <a href="tel:+4951153282655">telephone</a>. We will be happy to help you.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <meta>
-        <log lastEditor="ndille" date="2025-01-15" time="10:44"/>
-    </meta>
-</MyCoReWebPage>
+<p class="card-text">If you have any questions, please do not hesitate to contact us by <a href="mailto:forschungsdaten.bibliothek@mh-hannover.de ">e-mail</a> or <a href="tel:+4951153282655">telephone</a>. We will be happy to help you.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><meta><log lastEditor="ndille" date="2025-01-15" time="10:44" /></meta></MyCoReWebPage>

@@ -52,7 +52,7 @@
       <xsl:value-of select="$newline" />
       <xsl:value-of select="'OE 8900, Carl-Neuberg-Str. 1, 30625 Hannover, Deutschland'"/>
       <xsl:value-of select="$newline" />
-      <xsl:value-of select="'Tel.: +49 511-532-5578'"/>
+      <xsl:value-of select="'Tel.: +49 511-532-82655'"/>
       <xsl:value-of select="$newline" />
       <xsl:value-of select="'Forschungsdaten.Bibliothek@mh-hannover.de'"/>
       <xsl:value-of select="$newline" />
@@ -84,7 +84,7 @@
       <xsl:value-of select="$newline" />
       <xsl:value-of select="'OE 8900, Carl-Neuberg-Str. 1, 30625 Hanover, Germany'"/>
       <xsl:value-of select="$newline" />
-      <xsl:value-of select="'Tel.: +49 511-532-5578'"/>
+      <xsl:value-of select="'Tel.: +49 511-532-82655'"/>
       <xsl:value-of select="$newline" />
       <xsl:value-of select="'Forschungsdaten.Bibliothek@mh-hannover.de'"/>
       <xsl:value-of select="$newline" />
