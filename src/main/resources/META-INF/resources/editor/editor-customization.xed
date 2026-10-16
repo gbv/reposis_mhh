@@ -80,8 +80,8 @@
       genre="issue"
       responsefield="mods.title"
       xpath="mods:titleInfo/mods:title"
-      label="mir.title.issue"
-      help-text="{i18n:mir.help.title.issue}"
+      label="mhh.title.issue"
+      help-text="{i18n:mhh.title.issue.help}"
       class="required" />
   </xed:template>
 
