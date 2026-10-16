@@ -2,9 +2,11 @@
  *  - styles for forms and form fields
  */
 
-// Extra large devices (large desktops)
-// set the defaults for all responsive levels here
-// no (xl) media query necessary (desktop first)
+// set the defaults for all responsive levels here (desktop first)
+// after that, use the media queries to adjust the lower responsive levels
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
 
   .searchfield_box {
     margin-bottom: -30px;
@@ -14,20 +16,27 @@
     }
     .btn {
       font-size: 1rem;
+      // the plain .btn defines no hover/active border colors, so the border would fall back to the text color
+      --bs-btn-hover-border-color: transparent;
+      --bs-btn-active-border-color: transparent;
     }
   }
   #searchInput{
     border-color: white;
   }
 
-// Large devices (desktops) and below: <= 1200px
-@include media-breakpoint-down(lg) {
-  // add/overwrite styles for responsive level lg and lower
+// X-Large devices (large desktops, less than 1400px)
+@include media-breakpoint-down(xxl) {
+  // xl and lower
 }
 
-// Medium devices (tablets) and below: <= 992px
-@include media-breakpoint-down(md) {
-  // add/overwrite styles for responsive level md and lower
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(xl) {
+  // lg and lower
+}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(lg) {
   .searchfield_box {
     position: absolute;
     right: 0;
@@ -42,12 +51,12 @@
   }
 }
 
-// Small devices (landscape phones) and below: <= 768px
-@include media-breakpoint-down(sm) {
-  // add/overwrite styles for responsive level sm and lower
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(md) {
+  // sm and lower
 }
 
-// Extra small devices (portrait phones): <= 576px
-@include media-breakpoint-down(xs) {
-  // add/overwrite styles for responsive level xs
+// X-Small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(sm) {
+  // xs
 }

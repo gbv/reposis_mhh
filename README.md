@@ -3,7 +3,7 @@
 [MIR](https://github.com/MyCoRe-Org/mir) plugin with project-specific customizations
 for the RepoMed publication server of Hannover Medical School (MHH).
 
-Compatible with **MIR 2024.06.x**.
+Compatible with **MIR 2025.06.x**.
 
 ## Installation
 
