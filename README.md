@@ -1,6 +1,7 @@
 # reposis_mhh
 
-MIR plugin with project-specific customizations for the RepoMed publication server of Hannover Medical School (MHH).
+[MIR](https://github.com/MyCoRe-Org/mir) plugin with project-specific customizations
+for the RepoMed publication server of Hannover Medical School (MHH).
 
 Compatible with **MIR 2023.06.x**.
 
@@ -20,3 +21,4 @@ MCR.Developer.Resource.Override=/path/to/reposis_mhh/src/main/resources
 MCR.LayoutService.LastModifiedCheckPeriod=0
 MCR.UseXSLTemplateCache=false
 MCR.SASS.DeveloperMode=true
+```
