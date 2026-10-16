@@ -1,58 +1,60 @@
-/*  buttons settings
- *  - for buttons and links that look like buttons
+/*  badges settings
+ *  - outlined badges in result lists and on metadata pages
  */
 
-// Extra large devices (large desktops)
-// set the defaults for all responsive levels here
-// no (xl) media query necessary (desktop first)
+// set the defaults for all responsive levels here (desktop first)
+// after that, use the media queries to adjust the lower responsive levels
 
-.badge-primary {
-  color: $primary;
-  background-color: white;
-  border: 1px solid $primary;
-}
-.badge-secondary {
-  color: $secondary;
-  background-color: white;
-  border: 1px solid $secondary;
-}
-.badge-success {
-  color: $success;
-  background-color: white;
-  border: 1px solid $success;
-}
-.badge-warning {
-  color: $warning;
-  background-color: white;
-  border: 1px solid $warning;
-}
-.badge-info {
-  color: $info;
-  background-color: white;
-  border: 1px solid $info;
-}
-.result_body .result_list #hit_list .hit_item .hit_state .mir-submitted {
-  color: $warning;
-  border: 1px solid $warning;
-  background-color: white;
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+// MHH shows badges outlined instead of filled
+@mixin mhh-badge-outline($color) {
+  color: $color;
+  background-color: $white;
+  border: 1px solid $color;
 }
 
-// Large devices (desktops) and below: <= 1200px
+.mir-badge-container {
+  .mir-badge-date,
+  [class*="mir-badge-license-"] {
+    @include mhh-badge-outline($primary);
+  }
+  [class*="mir-badge-genre-"] {
+    @include mhh-badge-outline($info);
+  }
+  .mir-badge-state-submitted {
+    @include mhh-badge-outline($warning);
+  }
+  .mir-badge-oa-true {
+    @include mhh-badge-outline($success);
+  }
+  .mir-badge-oa-false {
+    @include mhh-badge-outline($warning);
+  }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@include media-breakpoint-down(xxl) {
+  // xl and lower
+}
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(xl) {
+  // lg and lower
+}
+
+// Medium devices (tablets, less than 992px)
 @include media-breakpoint-down(lg) {
-  // add/overwrite styles for responsive level lg and lower
+  // md and lower
 }
 
-// Medium devices (tablets) and below: <= 992px
+// Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(md) {
-  // add/overwrite styles for responsive level md and lower
+  // sm and lower
 }
 
-// Small devices (landscape phones) and below: <= 768px
+// X-Small devices (portrait phones, less than 576px)
 @include media-breakpoint-down(sm) {
-  // add/overwrite styles for responsive level sm and lower
-}
-
-// Extra small devices (portrait phones): <= 576px
-@include media-breakpoint-down(xs) {
-  // add/overwrite styles for responsive level xs
+  // xs
 }
