@@ -77,9 +77,11 @@
             <button class="btn btn-secondary ml-3" type="button" onClick="self.location.href='{../returnURL}'" tabindex="999">
               <xsl:value-of select="i18n:translate('component.user2.button.cancel')" />
             </button>
+            <!-- START mhh adaptions: link to self registration -->
             <a class="btn btn-success ml-3" role="button" href="{$WebApplicationBaseURL}authorization/new-author.xed?action=register">
-              Registrieren...
+              <xsl:value-of select="i18n:translate('mhh.login.register')" />
             </a>
+            <!-- END mhh adaptions -->
           </xsl:otherwise>
         </xsl:choose>
       </div>
