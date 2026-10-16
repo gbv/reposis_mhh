@@ -6,6 +6,7 @@
   <xed:modify ref="admin.fields">
     <xed:remove  ref="institutes" />
     <xed:include ref="institutes.repeat"                after="copyrightMD" />
+    <xed:remove  ref="related.item.other.search.of.all.items" />
   </xed:modify>
 
   <xed:modify ref="genres.book.common">
