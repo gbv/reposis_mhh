@@ -10,9 +10,9 @@
 
   <xsl:template name="mir.navigation">
     <div id="header_box" class="clearfix container">
-      <div id="options_nav_box" class="mir-prop-nav">
+      <div id="options_nav_box" class="mir-prop-nav d-flex justify-content-end">
         <nav>
-          <ul class="navbar-nav ml-auto flex-row">
+          <ul class="navbar-nav ms-auto flex-row">
             <xsl:call-template name="mir.loginMenu" />
             <xsl:call-template name="mir.languageMenu" />
           </ul>
@@ -36,15 +36,15 @@
           <button
             class="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#mir-main-nav-collapse-box"
+            data-bs-toggle="collapse"
+            data-bs-target="#mir-main-nav-collapse-box"
             aria-controls="mir-main-nav-collapse-box"
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div id="mir-main-nav-collapse-box" class="collapse navbar-collapse mir-main-nav__entries mb-3 mb-lg-0">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
               <xsl:call-template name="project.generate_single_menu_entry">
                 <xsl:with-param name="menuID" select="'brand'" />
               </xsl:call-template>
@@ -56,7 +56,7 @@
           </div>
           <form
             action="{$WebApplicationBaseURL}servlets/solr/find"
-            class="searchfield_box form-inline"
+            class="searchfield_box d-flex"
             role="search">
             <xsl:choose>
               <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
@@ -74,11 +74,9 @@
                 id="searchInput"
                 type="text"
                 aria-label="Search" />
-              <div class="input-group-append">
-                <button type="submit" class="btn text-primary bg-white">
-                  <i class="fas fa-search"></i>
-                </button>
-              </div>
+              <button type="submit" class="btn text-primary bg-white">
+                <i class="fas fa-search"></i>
+              </button>
             </div>
           </form>
         </nav>
@@ -106,7 +104,7 @@
             </p>
           </div>
         </div>
-        <div class="col-12 col-md text-right">
+        <div class="col-12 col-md text-end">
           <ul class="internal_links nav navbar-nav">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
